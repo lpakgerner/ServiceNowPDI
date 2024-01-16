@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="food_item_1_type" table="x_1152827_meal_c_0_inventory_submission" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>food_item_1_type</element>
+            <name>x_1152827_meal_c_0_inventory_submission</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-14 02:52:15</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>food_item_1_type</sys_name>
+            <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+            <sys_update_name>sys_choice_x_1152827_meal_c_0_inventory_submission_food_item_1_type</sys_update_name>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-14 02:52:15</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>food_item_1_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Canned/Jarred/Boxed Goods</label>
+            <language>en</language>
+            <name>x_1152827_meal_c_0_inventory_submission</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-14 02:52:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>20679b9e47c3791095cbdffe046d4360</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>sbaccam</sys_updated_by>
+            <sys_updated_on>2023-12-14 13:27:25</sys_updated_on>
+            <value>Canned/Jarred/Boxed Goods</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>food_item_1_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dairy &amp; Eggs</label>
+            <language>en</language>
+            <name>x_1152827_meal_c_0_inventory_submission</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-14 02:52:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>24679b9e47c3791095cbdffe046d435d</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>sbaccam</sys_updated_by>
+            <sys_updated_on>2023-12-14 13:59:13</sys_updated_on>
+            <value>Dairy &amp; Eggs</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>food_item_1_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fruits</label>
+            <language>en</language>
+            <name>x_1152827_meal_c_0_inventory_submission</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-14 02:52:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>20679b9e47c3791095cbdffe046d4362</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>sbaccam</sys_updated_by>
+            <sys_updated_on>2023-12-14 14:01:55</sys_updated_on>
+            <value>Fruits</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>food_item_1_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Meat &amp; Beans</label>
+            <language>en</language>
+            <name>x_1152827_meal_c_0_inventory_submission</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-14 02:52:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>20679b9e47c3791095cbdffe046d435f</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>sbaccam</sys_updated_by>
+            <sys_updated_on>2023-12-14 14:01:58</sys_updated_on>
+            <value>Meat &amp; Beans</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>food_item_1_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Non-perishables</label>
+            <language>en</language>
+            <name>x_1152827_meal_c_0_inventory_submission</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-14 02:52:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>20679b9e47c3791095cbdffe046d4364</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_updated_by>sbaccam</sys_updated_by>
+            <sys_updated_on>2023-12-14 14:02:02</sys_updated_on>
+            <value>Non-perishables</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>food_item_1_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Oils</label>
+            <language>en</language>
+            <name>x_1152827_meal_c_0_inventory_submission</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-14 02:52:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>20679b9e47c3791095cbdffe046d4365</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>sbaccam</sys_updated_by>
+            <sys_updated_on>2023-12-14 14:02:05</sys_updated_on>
+            <value>Oils</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>food_item_1_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sauces</label>
+            <language>en</language>
+            <name>x_1152827_meal_c_0_inventory_submission</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>sbaccam</sys_created_by>
+            <sys_created_on>2023-12-14 13:12:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a456126470f791095cbdffe046d4358</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>sbaccam</sys_updated_by>
+            <sys_updated_on>2023-12-14 14:02:07</sys_updated_on>
+            <value>Sauces</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>food_item_1_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vegetables</label>
+            <language>en</language>
+            <name>x_1152827_meal_c_0_inventory_submission</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-14 02:52:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>20679b9e47c3791095cbdffe046d4363</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>sbaccam</sys_updated_by>
+            <sys_updated_on>2023-12-14 14:02:12</sys_updated_on>
+            <value>Vegetables</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>food_item_1_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bread, Rice, Noodles &amp; Pasta</label>
+            <language>en</language>
+            <name>x_1152827_meal_c_0_inventory_submission</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-14 02:52:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>20679b9e47c3791095cbdffe046d4361</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>sbaccam</sys_updated_by>
+            <sys_updated_on>2023-12-14 13:27:38</sys_updated_on>
+            <value>Bread, Rice, Noodles &amp; Pasta</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

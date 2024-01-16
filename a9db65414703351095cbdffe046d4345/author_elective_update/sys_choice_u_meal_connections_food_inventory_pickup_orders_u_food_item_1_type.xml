@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_food_item_1_type" table="u_meal_connections_food_inventory_pickup_orders" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_food_item_1_type</element>
+            <name>u_meal_connections_food_inventory_pickup_orders</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-12 23:16:43</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_food_item_1_type</sys_name>
+            <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+            <sys_update_name>sys_choice_u_meal_connections_food_inventory_pickup_orders_u_food_item_1_type</sys_update_name>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-12 23:16:43</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

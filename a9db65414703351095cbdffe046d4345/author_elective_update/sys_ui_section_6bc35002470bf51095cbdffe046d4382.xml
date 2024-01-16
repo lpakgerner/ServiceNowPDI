@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="6bc35002470bf51095cbdffe046d4382" sys_domain="global" table="u_meal_connections_customer_orders" version="3" view="customer">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_customer</element>
+            <position>0</position>
+            <sys_created_by>sbaccam</sys_created_by>
+            <sys_created_on>2023-12-13 00:46:04</sys_created_on>
+            <sys_id>52e0f502478ff51095cbdffe046d43b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_meal_connections_customer_orders" sys_domain="global" view="9cde1472d423211095d7c105f1bf43f6">6bc35002470bf51095cbdffe046d4382</sys_ui_section>
+            <sys_updated_by>sbaccam</sys_updated_by>
+            <sys_updated_on>2023-12-13 00:46:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>sbaccam</sys_created_by>
+            <sys_created_on>2023-12-13 00:46:04</sys_created_on>
+            <sys_id>66e0f502478ff51095cbdffe046d43b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_meal_connections_customer_orders" sys_domain="global" view="9cde1472d423211095d7c105f1bf43f6">6bc35002470bf51095cbdffe046d4382</sys_ui_section>
+            <sys_updated_by>sbaccam</sys_updated_by>
+            <sys_updated_on>2023-12-13 00:46:04</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_date_ordered</element>
+            <position>2</position>
+            <sys_created_by>sbaccam</sys_created_by>
+            <sys_created_on>2023-12-13 00:46:04</sys_created_on>
+            <sys_id>6ae0f502478ff51095cbdffe046d43b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_meal_connections_customer_orders" sys_domain="global" view="9cde1472d423211095d7c105f1bf43f6">6bc35002470bf51095cbdffe046d4382</sys_ui_section>
+            <sys_updated_by>sbaccam</sys_updated_by>
+            <sys_updated_on>2023-12-13 00:46:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>u_meal_connections_customer_orders</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-12 17:59:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6bc35002470bf51095cbdffe046d4382</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_meal_connections_customer_orders</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+            <sys_update_name>sys_ui_section_6bc35002470bf51095cbdffe046d4382</sys_update_name>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-12 17:59:16</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Customer" name="customer">9cde1472d423211095d7c105f1bf43f6</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Meal Connections">a9db65414703351095cbdffe046d4345</application>
+        <file_path/>
+        <instance_id>6b8c4db3db4660d052cec597059619ac</instance_id>
+        <instance_name>dev106281</instance_name>
+        <name>sys_ui_section_6bc35002470bf51095cbdffe046d4382</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="6bc35002470bf51095cbdffe046d4382" sys_domain="global" table="u_meal_connections_customer_orders" version="3" view="customer"><sys_ui_element action="INSERT_OR_UPDATE"><element>u_customer</element><position>0</position><sys_created_by>sbaccam</sys_created_by><sys_created_on>2023-12-13 00:46:04</sys_created_on><sys_id>52e0f502478ff51095cbdffe046d43b2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_meal_connections_customer_orders" sys_domain="global" view="9cde1472d423211095d7c105f1bf43f6">6bc35002470bf51095cbdffe046d4382</sys_ui_section><sys_updated_by>sbaccam</sys_updated_by><sys_updated_on>2023-12-13 00:46:04</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>1</position><sys_created_by>sbaccam</sys_created_by><sys_created_on>2023-12-13 00:46:04</sys_created_on><sys_id>66e0f502478ff51095cbdffe046d43b2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_meal_connections_customer_orders" sys_domain="global" view="9cde1472d423211095d7c105f1bf43f6">6bc35002470bf51095cbdffe046d4382</sys_ui_section><sys_updated_by>sbaccam</sys_updated_by><sys_updated_on>2023-12-13 00:46:04</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_date_ordered</element><position>2</position><sys_created_by>sbaccam</sys_created_by><sys_created_on>2023-12-13 00:46:04</sys_created_on><sys_id>6ae0f502478ff51095cbdffe046d43b2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_meal_connections_customer_orders" sys_domain="global" view="9cde1472d423211095d7c105f1bf43f6">6bc35002470bf51095cbdffe046d4382</sys_ui_section><sys_updated_by>sbaccam</sys_updated_by><sys_updated_on>2023-12-13 00:46:04</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>u_meal_connections_customer_orders</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>lpakgerner</sys_created_by><sys_created_on>2023-12-12 17:59:16</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6bc35002470bf51095cbdffe046d4382</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_meal_connections_customer_orders</sys_name><sys_overrides/><sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package><sys_policy/><sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope><sys_update_name>sys_ui_section_6bc35002470bf51095cbdffe046d4382</sys_update_name><sys_updated_by>lpakgerner</sys_updated_by><sys_updated_on>2023-12-12 17:59:16</sys_updated_on><sys_user/><title>false</title><view display_value="Customer" name="customer">9cde1472d423211095d7c105f1bf43f6</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>384360929</payload_hash>
+        <record_name>Meal Connections Customer Orders</record_name>
+        <reverted_from/>
+        <source>2ddb65414703351095cbdffe046d4347</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 00:46:04</sys_created_on>
+        <sys_id>aee0f502478ff51095cbdffe046d43c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c60a34d9d0000001</sys_recorded_at>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 00:46:04</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>a6e0f502508ff510b29d18dd28a267c0</update_guid>
+        <update_guid_history>a6e0f502508ff510b29d18dd28a267c0:384360929,d790b102ff8ff510d00cb86bfb491708:1851210394,82d39002ea0bf5100b92d9f21905764f:-863461176,e3c35002eb0bf510ba9f0547a177c388:79045130</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 13:17:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>3e9d4d5900da46c089c9eac4b6ace900</sys_id>
+        <sys_metadata>6bc35002470bf51095cbdffe046d4382</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_meal_connections_customer_orders</sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_parent display_value="">011f82814783351095cbdffe046d432a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_scope_delete display_value="">53bfa4b1387943839cbd1b0b16819761</sys_scope_delete>
+        <sys_update_name>sys_ui_section_6bc35002470bf51095cbdffe046d4382</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_6bc35002470bf51095cbdffe046d4382">aee0f502478ff51095cbdffe046d43c0</sys_update_version>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 13:17:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

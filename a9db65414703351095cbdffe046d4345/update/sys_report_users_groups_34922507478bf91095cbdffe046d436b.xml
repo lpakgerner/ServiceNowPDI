@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Bar on Customer Orders table by food_item_1 created by Linder Pak-Gerner: 2023-12-15 18:16:42">74922507478bf91095cbdffe046d436a</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>lpakgerner</sys_created_by>
+        <sys_created_on>2023-12-16 02:17:20</sys_created_on>
+        <sys_id>34922507478bf91095cbdffe046d436b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>74922507478bf91095cbdffe046d436a</sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_update_name>sys_report_users_groups_34922507478bf91095cbdffe046d436b</sys_update_name>
+        <sys_updated_by>lpakgerner</sys_updated_by>
+        <sys_updated_on>2023-12-16 02:17:20</sys_updated_on>
+        <user_id display_value="Linder Pak-Gerner">3b3352dc4747711095cbdffe046d4301</user_id>
+    </sys_report_users_groups>
+</record_update>

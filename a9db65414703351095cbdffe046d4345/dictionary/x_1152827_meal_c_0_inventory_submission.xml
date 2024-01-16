@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5fa35f9a47c3791095cbdffe046d434e" label="Inventory Submission" max_length="40" name="x_1152827_meal_c_0_inventory_submission" text_index="true" type="collection">
+        <element label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" reference_qual="roles=x_1152827_meal_c_0.driver^EQ" reference_qual_condition="roles=x_1152827_meal_c_0.driver^EQ" type="reference"/>
+        <element label="Expiration Date" mandatory="true" max_length="40" name="expiration_date" type="glide_date"/>
+        <element label="Food Item #1" max_length="40" name="food_item_1" type="string"/>
+        <element choice="1" label="Food Item #1 Type" max_length="40" name="food_item_1_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Canned/Jarred/Boxed Goods" sequence="0" value="Canned/Jarred/Boxed Goods"/>
+                <element inactive_on_update="false" label="Dairy &amp; Eggs" sequence="1" value="Dairy &amp; Eggs"/>
+                <element inactive_on_update="false" label="Fruits" sequence="2" value="Fruits"/>
+                <element inactive_on_update="false" label="Meat &amp; Beans" sequence="3" value="Meat &amp; Beans"/>
+                <element inactive_on_update="false" label="Non-perishables" sequence="4" value="Non-perishables"/>
+                <element inactive_on_update="false" label="Oils" sequence="5" value="Oils"/>
+                <element inactive_on_update="false" label="Sauces" sequence="6" value="Sauces"/>
+                <element inactive_on_update="false" label="Vegetables" sequence="7" value="Vegetables"/>
+                <element inactive_on_update="false" label="Bread, Rice, Noodles &amp; Pasta" sequence="8" value="Bread, Rice, Noodles &amp; Pasta"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" mandatory="true" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Quantity" mandatory="true" max_length="40" name="quantity" type="integer"/>
+        <element label="Short Description" max_length="40" name="short_description" type="string"/>
+        <element choice="3" default="Need Driver" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Need Driver" sequence="0" value="Need Driver"/>
+                <element inactive_on_update="false" label="Waiting" sequence="1" value="waiting"/>
+                <element inactive_on_update="false" label="Picked Up" sequence="2" value="picked_up"/>
+                <element inactive_on_update="false" label="Canceled" sequence="3" value="canceled"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Vendor" max_length="32" name="vendor" reference="sys_user" type="reference"/>
+        <element label="Vendor Address" max_length="32" name="vendor_address" reference="sys_user" type="reference"/>
+        <element label="Vendor Business Phone" max_length="32" name="vendor_business_phone" reference="sys_user" type="reference"/>
+        <element default="javascript: gs.getUserID().getEmail()" label="Vendor Email" max_length="32" name="vendor_email" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index3">
+            <element name="vendor"/>
+        </index>
+        <index name="index4">
+            <element name="vendor_address"/>
+        </index>
+        <index name="index5">
+            <element name="vendor_business_phone"/>
+        </index>
+        <index name="index6">
+            <element name="vendor_email"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Meal Connections Driver Assignments Config">e19666ff204bbd1075df68041b75c273</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Dashboards</name>
+        <optional_parameters>sysId,openInEditMode</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>dashboards</route_type>
+        <screen_type display_value="Dashboards">619666ff0c4bbd10bae4b43dbbbf756e</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>lpakgerner</sys_created_by>
+        <sys_created_on>2023-12-18 15:09:57</sys_created_on>
+        <sys_id>a99666ffc74bbd102d5110749e8a0671</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dashboards</sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_update_name>sys_ux_app_route_a99666ffc74bbd102d5110749e8a0671</sys_update_name>
+        <sys_updated_by>lpakgerner</sys_updated_by>
+        <sys_updated_on>2023-12-18 15:09:57</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=a99666ffc74bbd102d5110749e8a0671"/>
+</record_update>

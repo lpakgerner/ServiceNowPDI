@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="20a62aff474bbd1095cbdffe046d4338" sys_domain="global" table="x_1152827_meal_c_0_inventory_submission" version="3" view="Workspace-Meal-Connections-Driver-Assignments-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-18 15:10:09</sys_created_on>
+            <sys_id>20a62aff474bbd1095cbdffe046d4339</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_inventory_submission" sys_domain="global" view="ed9666ff6a4bbd104be65d1760c24d6e">20a62aff474bbd1095cbdffe046d4338</sys_ui_section>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-18 15:10:09</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-18 15:10:09</sys_created_on>
+            <sys_id>24a62aff474bbd1095cbdffe046d4339</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_inventory_submission" sys_domain="global" view="ed9666ff6a4bbd104be65d1760c24d6e">20a62aff474bbd1095cbdffe046d4338</sys_ui_section>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-18 15:10:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_by</element>
+            <position>2</position>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-18 15:10:09</sys_created_on>
+            <sys_id>28a62aff474bbd1095cbdffe046d4339</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_inventory_submission" sys_domain="global" view="ed9666ff6a4bbd104be65d1760c24d6e">20a62aff474bbd1095cbdffe046d4338</sys_ui_section>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-18 15:10:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor.email</element>
+            <position>3</position>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-18 15:10:09</sys_created_on>
+            <sys_id>2ca62aff474bbd1095cbdffe046d4339</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_inventory_submission" sys_domain="global" view="ed9666ff6a4bbd104be65d1760c24d6e">20a62aff474bbd1095cbdffe046d4338</sys_ui_section>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-18 15:10:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>4</position>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-18 15:10:09</sys_created_on>
+            <sys_id>20a62aff474bbd1095cbdffe046d433a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_inventory_submission" sys_domain="global" view="ed9666ff6a4bbd104be65d1760c24d6e">20a62aff474bbd1095cbdffe046d4338</sys_ui_section>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-18 15:10:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>5</position>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-18 15:10:09</sys_created_on>
+            <sys_id>24a62aff474bbd1095cbdffe046d433a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_inventory_submission" sys_domain="global" view="ed9666ff6a4bbd104be65d1760c24d6e">20a62aff474bbd1095cbdffe046d4338</sys_ui_section>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-18 15:10:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-18 15:10:09</sys_created_on>
+            <sys_id>28a62aff474bbd1095cbdffe046d433a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_inventory_submission" sys_domain="global" view="ed9666ff6a4bbd104be65d1760c24d6e">20a62aff474bbd1095cbdffe046d4338</sys_ui_section>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-18 15:10:09</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_on</element>
+            <position>7</position>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-18 15:10:09</sys_created_on>
+            <sys_id>2ca62aff474bbd1095cbdffe046d433a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_inventory_submission" sys_domain="global" view="ed9666ff6a4bbd104be65d1760c24d6e">20a62aff474bbd1095cbdffe046d4338</sys_ui_section>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-18 15:10:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>food_item_1</element>
+            <position>8</position>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-18 15:10:09</sys_created_on>
+            <sys_id>20a62aff474bbd1095cbdffe046d433b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_inventory_submission" sys_domain="global" view="ed9666ff6a4bbd104be65d1760c24d6e">20a62aff474bbd1095cbdffe046d4338</sys_ui_section>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-18 15:10:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>food_item_1_type</element>
+            <position>9</position>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-18 15:10:09</sys_created_on>
+            <sys_id>28a6aaff474bbd1095cbdffe046d435e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_inventory_submission" sys_domain="global" view="ed9666ff6a4bbd104be65d1760c24d6e">20a62aff474bbd1095cbdffe046d4338</sys_ui_section>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-18 15:10:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>expiration_date</element>
+            <position>10</position>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-18 15:10:09</sys_created_on>
+            <sys_id>2ca6aaff474bbd1095cbdffe046d435e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_inventory_submission" sys_domain="global" view="ed9666ff6a4bbd104be65d1760c24d6e">20a62aff474bbd1095cbdffe046d4338</sys_ui_section>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-18 15:10:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>quantity</element>
+            <position>11</position>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-18 15:10:09</sys_created_on>
+            <sys_id>20a6aaff474bbd1095cbdffe046d435f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_inventory_submission" sys_domain="global" view="ed9666ff6a4bbd104be65d1760c24d6e">20a62aff474bbd1095cbdffe046d4338</sys_ui_section>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-18 15:10:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>12</position>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-18 15:10:09</sys_created_on>
+            <sys_id>24a6aaff474bbd1095cbdffe046d435f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_inventory_submission" sys_domain="global" view="ed9666ff6a4bbd104be65d1760c24d6e">20a62aff474bbd1095cbdffe046d4338</sys_ui_section>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-18 15:10:09</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor.company</element>
+            <position>13</position>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-18 15:10:09</sys_created_on>
+            <sys_id>28a6aaff474bbd1095cbdffe046d435f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_inventory_submission" sys_domain="global" view="ed9666ff6a4bbd104be65d1760c24d6e">20a62aff474bbd1095cbdffe046d4338</sys_ui_section>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-18 15:10:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor.company.street</element>
+            <position>14</position>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-18 15:10:09</sys_created_on>
+            <sys_id>2ca6aaff474bbd1095cbdffe046d435f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_inventory_submission" sys_domain="global" view="ed9666ff6a4bbd104be65d1760c24d6e">20a62aff474bbd1095cbdffe046d4338</sys_ui_section>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-18 15:10:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor.company.city</element>
+            <position>15</position>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-18 15:10:09</sys_created_on>
+            <sys_id>20a6aaff474bbd1095cbdffe046d4360</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_inventory_submission" sys_domain="global" view="ed9666ff6a4bbd104be65d1760c24d6e">20a62aff474bbd1095cbdffe046d4338</sys_ui_section>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-18 15:10:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor.company.state</element>
+            <position>16</position>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-18 15:10:09</sys_created_on>
+            <sys_id>24a6aaff474bbd1095cbdffe046d4360</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_inventory_submission" sys_domain="global" view="ed9666ff6a4bbd104be65d1760c24d6e">20a62aff474bbd1095cbdffe046d4338</sys_ui_section>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-18 15:10:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>17</position>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-18 15:10:09</sys_created_on>
+            <sys_id>28a6aaff474bbd1095cbdffe046d4360</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_inventory_submission" sys_domain="global" view="ed9666ff6a4bbd104be65d1760c24d6e">20a62aff474bbd1095cbdffe046d4338</sys_ui_section>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-18 15:10:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1152827_meal_c_0_inventory_submission</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-18 15:10:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>20a62aff474bbd1095cbdffe046d4338</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1152827_meal_c_0_inventory_submission</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+            <sys_update_name>sys_ui_section_20a62aff474bbd1095cbdffe046d4338</sys_update_name>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-18 15:10:09</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace Meal Connections Driver Assignments 0" name="Workspace-Meal-Connections-Driver-Assignments-0">ed9666ff6a4bbd104be65d1760c24d6e</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

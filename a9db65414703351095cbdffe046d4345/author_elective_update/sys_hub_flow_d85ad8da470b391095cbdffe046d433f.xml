@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access/>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>This flow should change the priority of the available food depending on the remaining days before expiration.</description>
+        <internal_name>meal_connections_food_workflow</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Meal Connections Food Workflow</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 13:06:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d85ad8da470b391095cbdffe046d433f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Meal Connections Food Workflow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_update_name>sys_hub_flow_d85ad8da470b391095cbdffe046d433f</sys_update_name>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 13:48:20</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=d85ad8da470b391095cbdffe046d433f"/>
+    <sys_variable_value action="DELETE" query="document_key=d85ad8da470b391095cbdffe046d433f"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=d85ad8da470b391095cbdffe046d433f"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=d85ad8da470b391095cbdffe046d433f"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=d85ad8da470b391095cbdffe046d433f^sys_idNOT INd85ad81e470b391095cbdffe046d43d2"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>d85ad8da470b391095cbdffe046d433f</id>
+        <name>Meal Connections Food Workflow</name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 13:06:12</sys_created_on>
+        <sys_id>d85ad81e470b391095cbdffe046d43d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 13:06:12</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=d85ad81e470b391095cbdffe046d43d2"/>
+    <sys_hub_flow_input action="DELETE" query="model=d85ad8da470b391095cbdffe046d433f"/>
+    <sys_hub_flow_output action="DELETE" query="model=d85ad8da470b391095cbdffe046d433f"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=d85ad8da470b391095cbdffe046d433f"/>
+    <sys_hub_action_instance action="DELETE" query="flow=d85ad8da470b391095cbdffe046d433f"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=d85ad8da470b391095cbdffe046d433f"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=d85ad8da470b391095cbdffe046d433f"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=d85ad8da470b391095cbdffe046d433f"/>
+    <sys_hub_flow_variable action="DELETE" query="model=d85ad8da470b391095cbdffe046d433f"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_d85ad8da470b391095cbdffe046d433f"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_d85ad8da470b391095cbdffe046d433f"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_d85ad8da470b391095cbdffe046d433f"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_d85ad8da470b391095cbdffe046d433f"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=d85ad8da470b391095cbdffe046d433f"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=d85ad8da470b391095cbdffe046d433f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Meal Connections">a9db65414703351095cbdffe046d4345</application>
+        <file_path/>
+        <instance_id>6b8c4db3db4660d052cec597059619ac</instance_id>
+        <instance_name>dev106281</instance_name>
+        <name>sys_hub_flow_d85ad8da470b391095cbdffe046d433f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access/><acls/><active>false</active><annotation/><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from/><copied_from_name/><description>This flow should change the priority of the available food depending on the remaining days before expiration.</description><internal_name>meal_connections_food_workflow</internal_name><label_cache>[]</label_cache><latest_snapshot/><master_snapshot/><name>Meal Connections Food Workflow</name><natlang/><outputs/><pre_compiled>false</pre_compiled><remote_trigger_id/><run_as>system</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>sbaccam</sys_created_by><sys_created_on>2023-12-13 13:06:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d85ad8da470b391095cbdffe046d433f</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Meal Connections Food Workflow</sys_name><sys_overrides/><sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package><sys_policy/><sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope><sys_update_name>sys_hub_flow_d85ad8da470b391095cbdffe046d433f</sys_update_name><sys_updated_by>sbaccam</sys_updated_by><sys_updated_on>2023-12-13 13:48:20</sys_updated_on><type>flow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=d85ad8da470b391095cbdffe046d433f"/><sys_variable_value action="delete_multiple" query="document_key=d85ad8da470b391095cbdffe046d433f"/><sys_hub_trigger_instance action="delete_multiple" query="flow=d85ad8da470b391095cbdffe046d433f"/><sys_hub_flow_stage action="delete_multiple" query="flow=d85ad8da470b391095cbdffe046d433f"/><sys_flow_cat_variable_model action="delete_multiple" query="id=d85ad8da470b391095cbdffe046d433f^sys_idNOT INd85ad81e470b391095cbdffe046d43d2"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>d85ad8da470b391095cbdffe046d433f</id><name>Meal Connections Food Workflow</name><sys_created_by>sbaccam</sys_created_by><sys_created_on>2023-12-13 13:06:12</sys_created_on><sys_id>d85ad81e470b391095cbdffe046d43d2</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>sbaccam</sys_updated_by><sys_updated_on>2023-12-13 13:06:12</sys_updated_on></sys_flow_cat_variable_model><sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=d85ad81e470b391095cbdffe046d43d2"/><sys_hub_flow_input action="delete_multiple" query="model=d85ad8da470b391095cbdffe046d433f"/><sys_hub_flow_output action="delete_multiple" query="model=d85ad8da470b391095cbdffe046d433f"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=d85ad8da470b391095cbdffe046d433f"/><sys_hub_action_instance action="delete_multiple" query="flow=d85ad8da470b391095cbdffe046d433f"/><sys_hub_sub_flow_instance action="delete_multiple" query="flow=d85ad8da470b391095cbdffe046d433f"/><sys_hub_flow_logic action="delete_multiple" query="flow=d85ad8da470b391095cbdffe046d433f"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=d85ad8da470b391095cbdffe046d433f"/><sys_hub_flow_variable action="delete_multiple" query="model=d85ad8da470b391095cbdffe046d433f"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_d85ad8da470b391095cbdffe046d433f"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_d85ad8da470b391095cbdffe046d433f"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_d85ad8da470b391095cbdffe046d433f"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_d85ad8da470b391095cbdffe046d433f"/><sys_flow_trigger_plan action="delete_multiple" query="plan_id=d85ad8da470b391095cbdffe046d433f"/><sys_flow_subflow_plan action="delete_multiple" query="plan_id=d85ad8da470b391095cbdffe046d433f"/></record_update>]]></payload>
+        <payload_hash>1131776327</payload_hash>
+        <record_name>Meal Connections Food Workflow</record_name>
+        <reverted_from/>
+        <source>2ddb65414703351095cbdffe046d4347</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 13:48:20</sys_created_on>
+        <sys_id>a1f328d6474b391095cbdffe046d4382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c636f7f690000001</sys_recorded_at>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 13:48:20</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>e9f328d6444b3910c7dedc825c734981</update_guid>
+        <update_guid_history>e9f328d6444b3910c7dedc825c734981:1131776327,a45ad81e610b391097919761913216da:2075292950</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 20:45:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>cbc5aa76164942daa93ae51f6a3883d1</sys_id>
+        <sys_metadata>d85ad8da470b391095cbdffe046d433f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Meal Connections Food Workflow</sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_scope_delete display_value="">53bfa4b1387943839cbd1b0b16819761</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_d85ad8da470b391095cbdffe046d433f</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_d85ad8da470b391095cbdffe046d433f">a1f328d6474b391095cbdffe046d4382</sys_update_version>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 20:45:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

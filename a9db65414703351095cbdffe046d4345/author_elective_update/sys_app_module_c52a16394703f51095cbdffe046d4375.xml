@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="test">8d2a16394703f51095cbdffe046d4371</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>tests</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1152827_meal_c_0_test</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_1152827_meal_c_0.test_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-12 09:07:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c52a16394703f51095cbdffe046d4375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tests</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_update_name>sys_app_module_c52a16394703f51095cbdffe046d4375</sys_update_name>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-12 09:07:43</sys_updated_on>
+        <timeline_page/>
+        <title>tests</title>
+        <u_string_1/>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Meal Connections">a9db65414703351095cbdffe046d4345</application>
+        <file_path/>
+        <instance_id>6b8c4db3db4660d052cec597059619ac</instance_id>
+        <instance_name>dev106281</instance_name>
+        <name>sys_app_module_c52a16394703f51095cbdffe046d4375</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="test">8d2a16394703f51095cbdffe046d4371</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>tests</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1152827_meal_c_0_test</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_1152827_meal_c_0.test_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>sbaccam</sys_created_by><sys_created_on>2023-12-12 09:07:43</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c52a16394703f51095cbdffe046d4375</sys_id><sys_mod_count>0</sys_mod_count><sys_name>tests</sys_name><sys_overrides/><sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package><sys_policy/><sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope><sys_update_name>sys_app_module_c52a16394703f51095cbdffe046d4375</sys_update_name><sys_updated_by>sbaccam</sys_updated_by><sys_updated_on>2023-12-12 09:07:43</sys_updated_on><timeline_page/><title>tests</title><u_string_1/><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>734243454</payload_hash>
+        <record_name>tests</record_name>
+        <reverted_from/>
+        <source>2ddb65414703351095cbdffe046d4347</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-12 09:07:43</sys_created_on>
+        <sys_id>c52a16394703f51095cbdffe046d4378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c5d4838a90000001</sys_recorded_at>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-12 09:07:43</sys_updated_on>
+        <type>Module</type>
+        <update_guid>012a16393d03f5103f5d8340cde5fb78</update_guid>
+        <update_guid_history>012a16393d03f5103f5d8340cde5fb78:734243454</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="tests">e64b1a794703f51095cbdffe046d43fd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-12 09:12:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>56727478a3ef426782f6d10fd0a31049</sys_id>
+        <sys_metadata>c52a16394703f51095cbdffe046d4375</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tests</sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_scope_delete display_value="">53bfa4b1387943839cbd1b0b16819761</sys_scope_delete>
+        <sys_update_name>sys_app_module_c52a16394703f51095cbdffe046d4375</sys_update_name>
+        <sys_update_version display_value="sys_app_module_c52a16394703f51095cbdffe046d4375">c52a16394703f51095cbdffe046d4378</sys_update_version>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-12 09:12:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

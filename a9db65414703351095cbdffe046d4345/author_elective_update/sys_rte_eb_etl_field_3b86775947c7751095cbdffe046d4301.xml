@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_field">
+    <sys_rte_eb_etl_field action="DELETE">
+        <coalesce>false</coalesce>
+        <coercion_action>create</coercion_action>
+        <field>sn_ihub_target_u_food_items</field>
+        <name>sn_ihub_target_u_food_items</name>
+        <sys_class_name>sys_rte_eb_etl_field</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-11 02:34:32</sys_created_on>
+        <sys_id>3b86775947c7751095cbdffe046d4301</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_ihub_target_u_food_items</sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Meal Connections Available Food_etl_ihub">cf26bbd547c7751095cbdffe046d43c5</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="IHUB_TARGET_TEMP_u_meal_connections_available_food">bf86375947c7751095cbdffe046d43ec</sys_rte_eb_entity>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_update_name>sys_rte_eb_etl_field_3b86775947c7751095cbdffe046d4301</sys_update_name>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-11 02:34:32</sys_updated_on>
+    </sys_rte_eb_etl_field>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Meal Connections">a9db65414703351095cbdffe046d4345</application>
+        <file_path/>
+        <instance_id>6b8c4db3db4660d052cec597059619ac</instance_id>
+        <instance_name>dev106281</instance_name>
+        <name>sys_rte_eb_etl_field_3b86775947c7751095cbdffe046d4301</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_field"><sys_rte_eb_etl_field action="INSERT_OR_UPDATE"><coalesce>false</coalesce><coercion_action>create</coercion_action><field>sn_ihub_target_u_food_items</field><name>sn_ihub_target_u_food_items</name><sys_class_name>sys_rte_eb_etl_field</sys_class_name><sys_created_by>sbaccam</sys_created_by><sys_created_on>2023-12-11 02:34:32</sys_created_on><sys_id>3b86775947c7751095cbdffe046d4301</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sn_ihub_target_u_food_items</sys_name><sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package><sys_policy/><sys_rte_eb_definition display_value="Meal Connections Available Food_etl_ihub">cf26bbd547c7751095cbdffe046d43c5</sys_rte_eb_definition><sys_rte_eb_entity display_value="IHUB_TARGET_TEMP_u_meal_connections_available_food">bf86375947c7751095cbdffe046d43ec</sys_rte_eb_entity><sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope><sys_update_name>sys_rte_eb_etl_field_3b86775947c7751095cbdffe046d4301</sys_update_name><sys_updated_by>sbaccam</sys_updated_by><sys_updated_on>2023-12-11 02:34:32</sys_updated_on></sys_rte_eb_etl_field></record_update>]]></payload>
+        <payload_hash>-1541136287</payload_hash>
+        <record_name>sn_ihub_target_u_food_items</record_name>
+        <reverted_from/>
+        <source>2ddb65414703351095cbdffe046d4347</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-11 02:34:32</sys_created_on>
+        <sys_id>7f86775947c7751095cbdffe046d4302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c56b9e4a50000001</sys_recorded_at>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-11 02:34:32</sys_updated_on>
+        <type>ETL Entity field</type>
+        <update_guid>b786775906c775109b1b3fc394ebcd02</update_guid>
+        <update_guid_history>b786775906c775109b1b3fc394ebcd02:-1541136287</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-12-11 03:17:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_etl_field">sys_rte_eb_etl_field</sys_db_object>
+        <sys_id>4b91670f284f43f4a922b56b00ac4a10</sys_id>
+        <sys_metadata>3b86775947c7751095cbdffe046d4301</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_ihub_target_u_food_items</sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_scope_delete display_value="">53bfa4b1387943839cbd1b0b16819761</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_etl_field_3b86775947c7751095cbdffe046d4301</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_etl_field_3b86775947c7751095cbdffe046d4301">7f86775947c7751095cbdffe046d4302</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-12-11 03:17:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

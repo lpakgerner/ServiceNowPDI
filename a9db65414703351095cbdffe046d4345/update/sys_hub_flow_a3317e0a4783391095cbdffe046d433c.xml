@@ -1,0 +1,2362 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description>This flow should send the customer an email after a set amount of time after their order is created. Then it should send an email once it is picked up.</description>
+        <internal_name>customer_workflow_with_time_delay</internal_name>
+        <label_cache>[{"name":"Created_1.current.date_ordered","label":"Trigger - Record Created➛Customer Orders Record➛Date Ordered","reference":"","reference_display":"Date Ordered","type":"glide_date","base_type":"glide_date","parent_table_name":"x_1152827_meal_c_0_customer_orders","column_name":"date_ordered"},{"name":"Created_1.current","label":"Trigger - Record Created➛Customer Orders Record","reference":"x_1152827_meal_c_0_customer_orders","reference_display":"Customer Orders","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.current.customer.email","label":"Trigger - Record Created➛Customer Orders Record➛Customer➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created_1.current.customer.name","label":"Trigger - Record Created➛Customer Orders Record➛Customer➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Customer Orders Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1152827_meal_c_0_customer_orders","column_name":"number"},{"name":"b8ee2aee-4428-429e-aa6a-8e9be05aff63.scheduled_end_date_time","label":"1 - Wait for a duration of time➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"Created_1.current.state","label":"Trigger - Record Created➛Customer Orders Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_1152827_meal_c_0_customer_orders","column_name":"state","choices":[{"label":"Waiting","used":false,"image":"","reference":false,"rawLabel":"Waiting","selected":false,"missing":false,"value":"waiting","parameters":{"name":"x_1152827_meal_c_0_customer_orders"}},{"label":"Picked Up","used":false,"image":"","reference":false,"rawLabel":"Picked Up","selected":false,"missing":false,"value":"picked_up","parameters":{"name":"x_1152827_meal_c_0_customer_orders"}},{"label":"Canceled","used":false,"image":"","reference":false,"rawLabel":"Canceled","selected":false,"missing":false,"value":"canceled","parameters":{"name":"x_1152827_meal_c_0_customer_orders"}}]}]</label_cache>
+        <master_snapshot>060af28247c3391095cbdffe046d4315</master_snapshot>
+        <name>Customer Workflow with Time Delay</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>55cf69c04797fd1095cbdffe046d43c5</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:27:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a3317e0a4783391095cbdffe046d433c</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Customer Workflow with Time Delay</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_update_name>sys_hub_flow_a3317e0a4783391095cbdffe046d433c</sys_update_name>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-19 05:48:56</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=a3317e0a4783391095cbdffe046d433c"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a3317e0a4783391095cbdffe046d433c"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1152827_meal_c_0_customer_orders">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-19 05:48:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>55cf69c04797fd1095cbdffe046d43c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-19 05:48:55</sys_updated_on>
+        <table>x_1152827_meal_c_0_customer_orders</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>a3317e0a4783391095cbdffe046d433c</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-19 05:48:55</sys_created_on>
+        <sys_id>ddcf69c04797fd1095cbdffe046d43c5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-19 05:48:55</sys_updated_on>
+        <trigger display_value="">55cf69c04797fd1095cbdffe046d43c5</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=a3317e0a4783391095cbdffe046d433c^sys_idNOT INddcf69c04797fd1095cbdffe046d43c5"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=a3317e0a4783391095cbdffe046d433c^sys_idNOT IN90f3b6ca4783391095cbdffe046d434c"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Customer Workflow with Time Delay">a3317e0a4783391095cbdffe046d433c</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:38:55</sys_created_on>
+        <sys_id>90f3b6ca4783391095cbdffe046d434c</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-19 05:48:56</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=90f3b6ca4783391095cbdffe046d434c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>90f3b6ca4783391095cbdffe046d434c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:38:55</sys_created_on>
+        <sys_id>1cf3b6ca4783391095cbdffe046d434d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:38:55</sys_updated_on>
+        <value>x_1152827_meal_c_0_customer_orders</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>90f3b6ca4783391095cbdffe046d434c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:38:55</sys_created_on>
+        <sys_id>d0f3b6ca4783391095cbdffe046d434d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:38:55</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=a3317e0a4783391095cbdffe046d433c"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=a3317e0a4783391095cbdffe046d433c^sys_idNOT IN23317e0a4783391095cbdffe046d433e"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>a3317e0a4783391095cbdffe046d433c</id>
+        <name>Customer Workflow with Time Delay</name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:27:08</sys_created_on>
+        <sys_id>23317e0a4783391095cbdffe046d433e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:27:08</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=23317e0a4783391095cbdffe046d433e"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=a3317e0a4783391095cbdffe046d433c^sys_idNOT IN18f3b6ca4783391095cbdffe046d4347,54f3b6ca4783391095cbdffe046d4342"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Customer Workflow with Time Delay">a3317e0a4783391095cbdffe046d433c</model>
+        <model_id>a3317e0a4783391095cbdffe046d433c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_a3317e0a4783391095cbdffe046d433c</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:38:55</sys_created_on>
+        <sys_id>18f3b6ca4783391095cbdffe046d4347</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-19 05:48:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Customer Workflow with Time Delay">a3317e0a4783391095cbdffe046d433c</model>
+        <model_id>a3317e0a4783391095cbdffe046d433c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_a3317e0a4783391095cbdffe046d433c</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:38:55</sys_created_on>
+        <sys_id>54f3b6ca4783391095cbdffe046d4342</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-19 05:48:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=a3317e0a4783391095cbdffe046d433c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a3317e0a4783391095cbdffe046d433c"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=a3317e0a4783391095cbdffe046d433c^sys_idNOT IN10f3b6ca4783391095cbdffe046d435d,7718bace4783391095cbdffe046d436b,b318bace4783391095cbdffe046d435e,b718bace4783391095cbdffe046d4338"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Customer Workflow with Time Delay">a3317e0a4783391095cbdffe046d433c</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:38:55</sys_created_on>
+        <sys_id>10f3b6ca4783391095cbdffe046d435d</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_updated_by>angel.huynh</sys_updated_by>
+        <sys_updated_on>2023-12-20 00:11:53</sys_updated_on>
+        <ui_id>90433fbb-ebd9-4fe7-92a6-5c136f5d0052</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=10f3b6ca4783391095cbdffe046d435d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>10f3b6ca4783391095cbdffe046d435d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:38:55</sys_created_on>
+        <sys_id>1cf3b6ca4783391095cbdffe046d4360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:38:55</sys_updated_on>
+        <value>x_1152827_meal_c_0_customer_orders</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>10f3b6ca4783391095cbdffe046d435d</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:38:55</sys_created_on>
+        <sys_id>58f3b6ca4783391095cbdffe046d4360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:38:55</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>10f3b6ca4783391095cbdffe046d435d</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:38:55</sys_created_on>
+        <sys_id>dcf3b6ca4783391095cbdffe046d4360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:38:55</sys_updated_on>
+        <value>Your Order is Ready to be Picked Up from Meal Connections!</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=10f3b6ca4783391095cbdffe046d435d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>10f3b6ca4783391095cbdffe046d435d</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:38:55</sys_created_on>
+        <sys_id>9cf3b6ca4783391095cbdffe046d435f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:09:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Hello, &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:b10d7ba9-b3eb-400c-ae7d-b3e5fe6b22ed}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:b10d7ba9-b3eb-400c-ae7d-b3e5fe6b22ed}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created &amp;gt; Customer Orders Record &amp;gt; Customer &amp;gt; Name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_b10d7ba9-b3eb-400c-ae7d-b3e5fe6b22ed" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;!&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Your order is ready to be picked up at Meal Connections HQ.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Your order number is:&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:f440ddd5-346a-4427-901f-7f7add8f982e}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Customer Orders Record &amp;gt; Number"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Number&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_f440ddd5-346a-4427-901f-7f7add8f982e" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;. Please pick up your order before the end of&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:3079bc0e-68ec-4a69-8a60-71a61e29c981}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:3079bc0e-68ec-4a69-8a60-71a61e29c981}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Customer Orders Record &amp;gt; Date Ordered"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Date Ordered&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_3079bc0e-68ec-4a69-8a60-71a61e29c981" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Thank you for helping reduce waste! Your conscious effort keeps the world cleaner every single day.&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>10f3b6ca4783391095cbdffe046d435d</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:38:55</sys_created_on>
+        <sys_id>d4f3b6ca4783391095cbdffe046d4360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:38:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>10f3b6ca4783391095cbdffe046d435d</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:38:55</sys_created_on>
+        <sys_id>d8f3b6ca4783391095cbdffe046d435f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:38:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.customer.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>10f3b6ca4783391095cbdffe046d435d</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:38:55</sys_created_on>
+        <sys_id>50f3b6ca4783391095cbdffe046d4360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:38:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>10f3b6ca4783391095cbdffe046d435d</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:38:55</sys_created_on>
+        <sys_id>14f3b6ca4783391095cbdffe046d4360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:38:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=10f3b6ca4783391095cbdffe046d435d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=10f3b6ca4783391095cbdffe046d435d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Customer Workflow with Time Delay">a3317e0a4783391095cbdffe046d433c</flow>
+        <order>7</order>
+        <parent_ui_id>511506ea-0646-4afd-92a5-ffa256b8b23a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:57:11</sys_created_on>
+        <sys_id>7718bace4783391095cbdffe046d436b</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_updated_by>angel.huynh</sys_updated_by>
+        <sys_updated_on>2023-12-20 00:11:53</sys_updated_on>
+        <ui_id>bb878730-f3b3-4b56-aeb7-d9cbf178f726</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7718bace4783391095cbdffe046d436b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7718bace4783391095cbdffe046d436b</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:57:11</sys_created_on>
+        <sys_id>3718bace4783391095cbdffe046d436e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:57:11</sys_updated_on>
+        <value>Your order has been canceled.</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7718bace4783391095cbdffe046d436b</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:57:11</sys_created_on>
+        <sys_id>7318bace4783391095cbdffe046d436e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:57:11</sys_updated_on>
+        <value>x_1152827_meal_c_0_customer_orders</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7718bace4783391095cbdffe046d436b</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:57:11</sys_created_on>
+        <sys_id>bf18bace4783391095cbdffe046d436d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:57:11</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7718bace4783391095cbdffe046d436b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>7718bace4783391095cbdffe046d436b</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:57:11</sys_created_on>
+        <sys_id>f318bace4783391095cbdffe046d436d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:03:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Hello&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:1c99471c-b545-40bc-853f-1f4c3bc28ac2}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:1c99471c-b545-40bc-853f-1f4c3bc28ac2}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created &amp;gt; Customer Orders Record &amp;gt; Customer &amp;gt; Name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_1c99471c-b545-40bc-853f-1f4c3bc28ac2" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="font-size: 10pt;"&gt;&lt;strong&gt;We apologize for the inconvenience. Your order&amp;nbsp;&lt;/strong&gt;&lt;/span&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:e241e06b-9904-42fb-a6da-f8cb9c7832bc}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Customer Orders Record &amp;gt; Number"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Number&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_e241e06b-9904-42fb-a6da-f8cb9c7832bc" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="font-size: 10pt;"&gt;&lt;strong&gt; has been canceled due to unforseen circumstances.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;For inquiries about this order, please provide the order number when contacting Meal Connections via phone at (111) 111-1111. Our hours are 8 am - 5 pm CT. If we missed your call, please lookout for a voicemail.&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>7718bace4783391095cbdffe046d436b</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:57:11</sys_created_on>
+        <sys_id>3f18bace4783391095cbdffe046d436d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:57:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>7718bace4783391095cbdffe046d436b</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:57:11</sys_created_on>
+        <sys_id>3318bace4783391095cbdffe046d436d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:57:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.customer.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>7718bace4783391095cbdffe046d436b</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:57:11</sys_created_on>
+        <sys_id>b718bace4783391095cbdffe046d436d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:57:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>7718bace4783391095cbdffe046d436b</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:57:11</sys_created_on>
+        <sys_id>7b18bace4783391095cbdffe046d436d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:57:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7718bace4783391095cbdffe046d436b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7718bace4783391095cbdffe046d436b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Customer Workflow with Time Delay">a3317e0a4783391095cbdffe046d433c</flow>
+        <order>5</order>
+        <parent_ui_id>a456008f-ea18-456b-a8ed-06c4c5113e5a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:57:11</sys_created_on>
+        <sys_id>b318bace4783391095cbdffe046d435e</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_updated_by>angel.huynh</sys_updated_by>
+        <sys_updated_on>2023-12-20 00:11:53</sys_updated_on>
+        <ui_id>d265810c-1a6a-449d-81a7-f23ebd1cd36e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b318bace4783391095cbdffe046d435e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b318bace4783391095cbdffe046d435e</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:57:11</sys_created_on>
+        <sys_id>7318bace4783391095cbdffe046d4361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:57:11</sys_updated_on>
+        <value>Thank You for Picking Up Your Meal Connections Order!</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b318bace4783391095cbdffe046d435e</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:57:11</sys_created_on>
+        <sys_id>bf18bace4783391095cbdffe046d4360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:57:11</sys_updated_on>
+        <value>x_1152827_meal_c_0_customer_orders</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b318bace4783391095cbdffe046d435e</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:57:11</sys_created_on>
+        <sys_id>fb18bace4783391095cbdffe046d4360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:57:11</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b318bace4783391095cbdffe046d435e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>b318bace4783391095cbdffe046d435e</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:57:11</sys_created_on>
+        <sys_id>3318bace4783391095cbdffe046d4360</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-19 05:48:46</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;&lt;span style="font-size: 12pt;"&gt;Hello, &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:f0e75323-dfc4-4e79-adcf-39e3df452ed6}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:f0e75323-dfc4-4e79-adcf-39e3df452ed6}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created &amp;gt; Customer Orders Record &amp;gt; Customer &amp;gt; Name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_f0e75323-dfc4-4e79-adcf-39e3df452ed6" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;!&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="font-size: 12pt;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="font-size: 12pt;"&gt;Thank you for picking up order&amp;nbsp;&lt;/span&gt;&lt;span class="data_pill  accepts_transform_functions" style="background-color: #d9ebee;" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:f440ddd5-346a-4427-901f-7f7add8f982e}}"&gt;&lt;span class="data-pill-content-container" style="padding-right: 0px; padding-left: 0px;"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Customer Orders Record &amp;gt; Number"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Number&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_f440ddd5-346a-4427-901f-7f7add8f982e" class="transform_function_facade no_transform_applied" style="margin-left: 8px; opacity: 1; border: 1px solid #315d67;"&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="font-size: 12pt;"&gt;&amp;nbsp;at Meal Connections HQ.&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Thank you for helping reduce waste! Your conscious effort keeps the world cleaner every single day.&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>b318bace4783391095cbdffe046d435e</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:57:11</sys_created_on>
+        <sys_id>7b18bace4783391095cbdffe046d4360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:57:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>b318bace4783391095cbdffe046d435e</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:57:11</sys_created_on>
+        <sys_id>7f18bace4783391095cbdffe046d435f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:57:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.customer.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>b318bace4783391095cbdffe046d435e</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:57:11</sys_created_on>
+        <sys_id>f318bace4783391095cbdffe046d4360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:57:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>b318bace4783391095cbdffe046d435e</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:57:11</sys_created_on>
+        <sys_id>b718bace4783391095cbdffe046d4360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:57:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b318bace4783391095cbdffe046d435e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b318bace4783391095cbdffe046d435e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Customer Workflow with Time Delay">a3317e0a4783391095cbdffe046d433c</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:57:10</sys_created_on>
+        <sys_id>b718bace4783391095cbdffe046d4338</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_updated_by>angel.huynh</sys_updated_by>
+        <sys_updated_on>2023-12-20 00:11:53</sys_updated_on>
+        <ui_id>489f3149-f814-4ffd-81fe-4aefce9cf6a6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b718bace4783391095cbdffe046d4338"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b718bace4783391095cbdffe046d4338</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:57:10</sys_created_on>
+        <sys_id>bb18bace4783391095cbdffe046d433a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:57:10</sys_updated_on>
+        <value>state=picked_up^ORstate=canceled</value>
+        <variable display_value="Conditions">49ce8a4187120010663ca1bb36cb0bef</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b718bace4783391095cbdffe046d4338</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:57:10</sys_created_on>
+        <sys_id>bf18bace4783391095cbdffe046d433a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:57:10</sys_updated_on>
+        <value>x_1152827_meal_c_0_customer_orders</value>
+        <variable display_value="Table">45ce8a4187120010663ca1bb36cb0bea</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b718bace4783391095cbdffe046d4338"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>b718bace4783391095cbdffe046d4338</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:57:10</sys_created_on>
+        <sys_id>7718bace4783391095cbdffe046d433a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:57:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>b718bace4783391095cbdffe046d4338</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:57:10</sys_created_on>
+        <sys_id>b318bace4783391095cbdffe046d433a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:57:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>b718bace4783391095cbdffe046d4338</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:57:10</sys_created_on>
+        <sys_id>3b18bace4783391095cbdffe046d433a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:57:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b718bace4783391095cbdffe046d4338"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b718bace4783391095cbdffe046d4338"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=a3317e0a4783391095cbdffe046d433c"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=a3317e0a4783391095cbdffe046d433c^sys_idNOT IN18f3b6ca4783391095cbdffe046d434f,bb18bace4783391095cbdffe046d433b,fb18bace4783391095cbdffe046d4361"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">5cf3b6ca4783391095cbdffe046d434e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Customer Workflow with Time Delay">a3317e0a4783391095cbdffe046d433c</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:38:55</sys_created_on>
+        <sys_id>18f3b6ca4783391095cbdffe046d434f</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-19 05:48:56</sys_updated_on>
+        <ui_id>b8ee2aee-4428-429e-aa6a-8e9be05aff63</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=18f3b6ca4783391095cbdffe046d434f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>18f3b6ca4783391095cbdffe046d434f</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:38:55</sys_created_on>
+        <sys_id>98f3b6ca4783391095cbdffe046d4356</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:58:09</sys_updated_on>
+        <value>1970-01-01 00:00:15</value>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>18f3b6ca4783391095cbdffe046d434f</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:38:55</sys_created_on>
+        <sys_id>d4f3b6ca4783391095cbdffe046d4356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:38:55</sys_updated_on>
+        <value/>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_fdb2541473031300b61e66476bf6a70e^id=18f3b6ca4783391095cbdffe046d434f"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=18f3b6ca4783391095cbdffe046d434f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=18f3b6ca4783391095cbdffe046d434f"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">3718bace4783391095cbdffe046d433b</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Customer Workflow with Time Delay">a3317e0a4783391095cbdffe046d433c</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:57:10</sys_created_on>
+        <sys_id>bb18bace4783391095cbdffe046d433b</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-19 05:48:56</sys_updated_on>
+        <ui_id>a456008f-ea18-456b-a8ed-06c4c5113e5a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=bb18bace4783391095cbdffe046d433b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>bb18bace4783391095cbdffe046d433b</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:57:11</sys_created_on>
+        <sys_id>bf18bace4783391095cbdffe046d4357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:57:11</sys_updated_on>
+        <value>State = Picked Up</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bb18bace4783391095cbdffe046d433b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>bb18bace4783391095cbdffe046d433b</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:57:11</sys_created_on>
+        <sys_id>3f18bace4783391095cbdffe046d4357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:57:11</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Created_1.current.state}}=picked_up</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>bb18bace4783391095cbdffe046d433b</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:57:11</sys_created_on>
+        <sys_id>7b18bace4783391095cbdffe046d4357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:57:11</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=bb18bace4783391095cbdffe046d433b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bb18bace4783391095cbdffe046d433b"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">7718bace4783391095cbdffe046d4361</block>
+        <comment/>
+        <connected_to>a456008f-ea18-456b-a8ed-06c4c5113e5a</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Customer Workflow with Time Delay">a3317e0a4783391095cbdffe046d433c</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:57:11</sys_created_on>
+        <sys_id>fb18bace4783391095cbdffe046d4361</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-19 05:48:56</sys_updated_on>
+        <ui_id>511506ea-0646-4afd-92a5-ffa256b8b23a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=fb18bace4783391095cbdffe046d4361"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>fb18bace4783391095cbdffe046d4361</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:57:11</sys_created_on>
+        <sys_id>7318bace4783391095cbdffe046d4365</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:57:11</sys_updated_on>
+        <value>State = Canceled</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=fb18bace4783391095cbdffe046d4361"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>fb18bace4783391095cbdffe046d4361</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:57:11</sys_created_on>
+        <sys_id>ff18bace4783391095cbdffe046d4364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:57:11</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value>{{Created_1.current.state}}=canceled</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>fb18bace4783391095cbdffe046d4361</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:57:11</sys_created_on>
+        <sys_id>3f18bace4783391095cbdffe046d4364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:57:11</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=fb18bace4783391095cbdffe046d4361"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fb18bace4783391095cbdffe046d4361"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=a3317e0a4783391095cbdffe046d433c^sys_idNOT IN0ba9ba4247c3391095cbdffe046d431f,14f3b6ca4783391095cbdffe046d4374,1cfa76c247c3391095cbdffe046d436e,3b18bace4783391095cbdffe046d4377,50f3b6ca4783391095cbdffe046d4374,94f3b6ca4783391095cbdffe046d4373,9cf3b6ca4783391095cbdffe046d4373,ff18bace4783391095cbdffe046d4377"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>a3317e0a4783391095cbdffe046d433c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.customer.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:03:57</sys_created_on>
+        <sys_id>0ba9ba4247c3391095cbdffe046d431f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:03:57</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>f0e75323-dfc4-4e79-adcf-39e3df452ed6</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>a3317e0a4783391095cbdffe046d433c</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>2889e612-d001-4341-ab4f-c8b13d76e678</source_ui_id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:38:55</sys_created_on>
+        <sys_id>14f3b6ca4783391095cbdffe046d4374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:38:55</sys_updated_on>
+        <transform_compositions>[{"id":"5094327dc73333003884f80bf4c2600a","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"date_format","label":"Output Date Format","order":0,"attributes":{},"value":"yyyy-MM-dd","type":"choice","defaultValue":null,"typeLabel":null,"mandatory":true,"choices":[{"label":"-- None --","value":"","order":1},{"label":"Custom (enter below)","value":"NULL_OVERRIDE","order":2},{"label":"ISO Date (2004-06-28)","value":"yyyy-MM-dd","order":3},{"label":"ISO Date/Time (2004-06-28T17:34:10Z)","value":"yyyy-MM-dd'T'HH:mm:ss'Z'","order":4},{"label":"ServiceNow Date/Time (2004-06-28 17:34:10)","value":"yyyy-MM-dd HH:mm:ss","order":5},{"label":"EEE, MMM dd, yyyy (Mon, Jun 28, 2004)","value":"EEE, MMM dd, yyyy","order":6},{"label":"EEE, MMM dd, yyyy h:mm a (Mon, Jun 28, 2004 5:34 PM)","value":"EEE, MMM dd, yyyy h:mm a","order":7},{"label":"MM-dd-yyyy (06-28-2004)","value":"MM-dd-yyyy","order":8},{"label":"MM-dd-yyyy h:mm a (06-28-2004 5:34 PM)","value":"MM-dd-yyyy h:mm a","order":9},{"label":"MM-dd-yyyy HH:mm:ss (06-28-2004 17:34:10)","value":"MM-dd-yyyy HH:mm:ss","order":10},{"label":"MM/dd/yyyy (06/28/2004)","value":"MM/dd/yyyy","order":11},{"label":"MM/dd/yyyy h:mm a (06/28/2004 5:34 PM)","value":"MM/dd/yyyy h:mm a","order":12},{"label":"MM/dd/yyyy HH:mm:ss (06/28/2004 15:34:10)","value":"MM/dd/yyyy HH:mm:ss","order":13},{"label":"MMM dd, yyyy (Jun 28, 2004)","value":"MMM dd, yyyy","order":14},{"label":"MMM dd, yyyy h:mm a (Jun 28, 2004 5:34 PM)","value":"MMM dd, yyyy h:mm a","order":15},{"label":"yyyy-MM-dd h:mm a (2004-06-28 5:34 PM)","value":"yyyy-MM-dd h:mm a","order":16},{"label":"yyyy/MM/dd (2004/06/28)","value":"yyyy/MM/dd","order":17},{"label":"yyyy/MM/dd h:mm a (2004/06/28 5:34 PM)","value":"yyyy/MM/dd h:mm a","order":18},{"label":"yyyy/MM/dd HH:mm:ss (2004/06/28 17:34:10)","value":"yyyy/MM/dd HH:mm:ss","order":19}]},{"id":null,"name":"custom_format","label":"Custom Format","order":1,"attributes":{},"value":"","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="date_to_string">4e343e3dc73333003884f80bf4c26096</transform_definition_id>
+        <ui_id>e9d520b1-dc8f-4cb3-97bb-ad259731bd87</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>a3317e0a4783391095cbdffe046d433c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.date_ordered}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:09:30</sys_created_on>
+        <sys_id>1cfa76c247c3391095cbdffe046d436e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:09:30</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>3079bc0e-68ec-4a69-8a60-71a61e29c981</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>a3317e0a4783391095cbdffe046d433c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.customer.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:57:11</sys_created_on>
+        <sys_id>3b18bace4783391095cbdffe046d4377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:57:11</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>1c99471c-b545-40bc-853f-1f4c3bc28ac2</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>a3317e0a4783391095cbdffe046d433c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{b8ee2aee-4428-429e-aa6a-8e9be05aff63.scheduled_end_date_time}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:38:55</sys_created_on>
+        <sys_id>50f3b6ca4783391095cbdffe046d4374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:38:55</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>2889e612-d001-4341-ab4f-c8b13d76e678</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>a3317e0a4783391095cbdffe046d433c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.customer.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:38:55</sys_created_on>
+        <sys_id>94f3b6ca4783391095cbdffe046d4373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:38:55</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b10d7ba9-b3eb-400c-ae7d-b3e5fe6b22ed</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>a3317e0a4783391095cbdffe046d433c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:38:55</sys_created_on>
+        <sys_id>9cf3b6ca4783391095cbdffe046d4373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:38:55</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>f440ddd5-346a-4427-901f-7f7add8f982e</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>a3317e0a4783391095cbdffe046d433c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:57:11</sys_created_on>
+        <sys_id>ff18bace4783391095cbdffe046d4377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:57:11</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>e241e06b-9904-42fb-a6da-f8cb9c7832bc</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=a3317e0a4783391095cbdffe046d433c"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_a3317e0a4783391095cbdffe046d433c^sys_idNOT IN14f3b6ca4783391095cbdffe046d4346,9cf3b6ca4783391095cbdffe046d4349"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a3317e0a4783391095cbdffe046d433c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:38:55</sys_created_on>
+        <sys_id>14f3b6ca4783391095cbdffe046d4346</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:38:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a3317e0a4783391095cbdffe046d433c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 05:38:55</sys_created_on>
+        <sys_id>9cf3b6ca4783391095cbdffe046d4349</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 05:38:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_a3317e0a4783391095cbdffe046d433c"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_a3317e0a4783391095cbdffe046d433c"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_a3317e0a4783391095cbdffe046d433c"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=a3317e0a4783391095cbdffe046d433c^sys_idNOT INaa0af28247c3391095cbdffe046d43e3"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"aa0af28247c3391095cbdffe046d43e3","name":"plan","plan_signature":null}}</plan>
+        <plan_id>a3317e0a4783391095cbdffe046d433c</plan_id>
+        <snapshot>3d3ce1984717315095cbdffe046d4369</snapshot>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aa0af28247c3391095cbdffe046d43e3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-19 05:48:55</sys_updated_on>
+        <trigger display_value="">55cf69c04797fd1095cbdffe046d43c5</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=a3317e0a4783391095cbdffe046d433c"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name/>
+        <description>This flow should send the customer an email after a set amount of time after their order is created. Then it should send an email once it is picked up.</description>
+        <internal_name>customer_workflow_with_time_delay</internal_name>
+        <label_cache>[{"name":"Created_1.current.date_ordered","label":"Trigger - Record Created➛Customer Orders Record➛Date Ordered","reference":"","reference_display":"Date Ordered","type":"glide_date","base_type":"glide_date","parent_table_name":"x_1152827_meal_c_0_customer_orders","column_name":"date_ordered"},{"name":"Created_1.current","label":"Trigger - Record Created➛Customer Orders Record","reference":"x_1152827_meal_c_0_customer_orders","reference_display":"Customer Orders","type":"reference","base_type":"reference","attributes":{}},{"name":"Created_1.current.customer.email","label":"Trigger - Record Created➛Customer Orders Record➛Customer➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created_1.current.customer.name","label":"Trigger - Record Created➛Customer Orders Record➛Customer➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Customer Orders Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1152827_meal_c_0_customer_orders","column_name":"number"},{"name":"b8ee2aee-4428-429e-aa6a-8e9be05aff63.scheduled_end_date_time","label":"1 - Wait for a duration of time➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"Created_1.current.state","label":"Trigger - Record Created➛Customer Orders Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_1152827_meal_c_0_customer_orders","column_name":"state","choices":[{"label":"Waiting","used":false,"image":"","reference":false,"rawLabel":"Waiting","selected":false,"missing":false,"value":"waiting","parameters":{"name":"x_1152827_meal_c_0_customer_orders"}},{"label":"Picked Up","used":false,"image":"","reference":false,"rawLabel":"Picked Up","selected":false,"missing":false,"value":"picked_up","parameters":{"name":"x_1152827_meal_c_0_customer_orders"}},{"label":"Canceled","used":false,"image":"","reference":false,"rawLabel":"Canceled","selected":false,"missing":false,"value":"canceled","parameters":{"name":"x_1152827_meal_c_0_customer_orders"}}]}]</label_cache>
+        <master>true</master>
+        <name>Customer Workflow with Time Delay</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Customer Workflow with Time Delay">a3317e0a4783391095cbdffe046d433c</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>060af28247c3391095cbdffe046d4315</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-19 05:48:54</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=060af28247c3391095cbdffe046d4315"/>
+    <sys_variable_value action="delete_multiple" query="document_key=060af28247c3391095cbdffe046d4315"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=060af28247c3391095cbdffe046d4315^sys_idNOT IN1e0af28247c3391095cbdffe046d436c"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Customer Workflow with Time Delay">060af28247c3391095cbdffe046d4315</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>1e0af28247c3391095cbdffe046d436c</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-19 05:48:56</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1e0af28247c3391095cbdffe046d436c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>1e0af28247c3391095cbdffe046d436c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>1a0af28247c3391095cbdffe046d436e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <value>x_1152827_meal_c_0_customer_orders</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>1e0af28247c3391095cbdffe046d436c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>560af28247c3391095cbdffe046d436e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=060af28247c3391095cbdffe046d4315"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=060af28247c3391095cbdffe046d4315^sys_idNOT IN820af28247c3391095cbdffe046d4316"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>060af28247c3391095cbdffe046d4315</id>
+        <name>Customer Workflow with Time Delay</name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:31</sys_created_on>
+        <sys_id>820af28247c3391095cbdffe046d4316</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:31</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=820af28247c3391095cbdffe046d4316"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=060af28247c3391095cbdffe046d4315^sys_idNOT IN4e0af28247c3391095cbdffe046d4327,c60af28247c3391095cbdffe046d4317"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Customer Workflow with Time Delay">060af28247c3391095cbdffe046d4315</model>
+        <model_id>060af28247c3391095cbdffe046d4315</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_060af28247c3391095cbdffe046d4315</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:31</sys_created_on>
+        <sys_id>4e0af28247c3391095cbdffe046d4327</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-19 05:48:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Customer Workflow with Time Delay">060af28247c3391095cbdffe046d4315</model>
+        <model_id>060af28247c3391095cbdffe046d4315</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_060af28247c3391095cbdffe046d4315</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:31</sys_created_on>
+        <sys_id>c60af28247c3391095cbdffe046d4317</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-19 05:48:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=060af28247c3391095cbdffe046d4315"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=060af28247c3391095cbdffe046d4315"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=060af28247c3391095cbdffe046d4315^sys_idNOT IN5a0af28247c3391095cbdffe046d4369,860af28247c3391095cbdffe046d4360,8a0af28247c3391095cbdffe046d434c,8a0af28247c3391095cbdffe046d4357"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Customer Workflow with Time Delay">060af28247c3391095cbdffe046d4315</flow>
+        <order>7</order>
+        <parent_ui_id>511506ea-0646-4afd-92a5-ffa256b8b23a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>5a0af28247c3391095cbdffe046d4369</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-19 05:48:54</sys_updated_on>
+        <ui_id>bb878730-f3b3-4b56-aeb7-d9cbf178f726</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5a0af28247c3391095cbdffe046d4369"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5a0af28247c3391095cbdffe046d4369</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>1a0af28247c3391095cbdffe046d436c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <value>Your order has been canceled.</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5a0af28247c3391095cbdffe046d4369</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>560af28247c3391095cbdffe046d436c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <value>x_1152827_meal_c_0_customer_orders</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5a0af28247c3391095cbdffe046d4369</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>920af28247c3391095cbdffe046d436c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5a0af28247c3391095cbdffe046d4369"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>5a0af28247c3391095cbdffe046d4369</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>d60af28247c3391095cbdffe046d436b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Hello&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:1c99471c-b545-40bc-853f-1f4c3bc28ac2}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:1c99471c-b545-40bc-853f-1f4c3bc28ac2}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created &amp;gt; Customer Orders Record &amp;gt; Customer &amp;gt; Name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_1c99471c-b545-40bc-853f-1f4c3bc28ac2" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="font-size: 10pt;"&gt;&lt;strong&gt;We apologize for the inconvenience. Your order&amp;nbsp;&lt;/strong&gt;&lt;/span&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:e241e06b-9904-42fb-a6da-f8cb9c7832bc}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Customer Orders Record &amp;gt; Number"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Number&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_e241e06b-9904-42fb-a6da-f8cb9c7832bc" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="font-size: 10pt;"&gt;&lt;strong&gt; has been canceled due to unforseen circumstances.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;For inquiries about this order, please provide the order number when contacting Meal Connections via phone at (111) 111-1111. Our hours are 8 am - 5 pm CT. If we missed your call, please lookout for a voicemail.&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>5a0af28247c3391095cbdffe046d4369</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>120af28247c3391095cbdffe046d436c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>5a0af28247c3391095cbdffe046d4369</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>160af28247c3391095cbdffe046d436b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.customer.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>5a0af28247c3391095cbdffe046d4369</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>9a0af28247c3391095cbdffe046d436b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>5a0af28247c3391095cbdffe046d4369</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>5e0af28247c3391095cbdffe046d436b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5a0af28247c3391095cbdffe046d4369"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5a0af28247c3391095cbdffe046d4369"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Customer Workflow with Time Delay">060af28247c3391095cbdffe046d4315</flow>
+        <order>5</order>
+        <parent_ui_id>a456008f-ea18-456b-a8ed-06c4c5113e5a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>860af28247c3391095cbdffe046d4360</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-19 05:48:54</sys_updated_on>
+        <ui_id>d265810c-1a6a-449d-81a7-f23ebd1cd36e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=860af28247c3391095cbdffe046d4360"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>860af28247c3391095cbdffe046d4360</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>460af28247c3391095cbdffe046d4363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <value>Thank You for Picking Up Your Meal Connections Order!</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>860af28247c3391095cbdffe046d4360</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>820af28247c3391095cbdffe046d4363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <value>x_1152827_meal_c_0_customer_orders</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>860af28247c3391095cbdffe046d4360</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>ce0af28247c3391095cbdffe046d4362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=860af28247c3391095cbdffe046d4360"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>860af28247c3391095cbdffe046d4360</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>060af28247c3391095cbdffe046d4362</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-19 05:48:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;&lt;span style="font-size: 12pt;"&gt;Hello, &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:f0e75323-dfc4-4e79-adcf-39e3df452ed6}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:f0e75323-dfc4-4e79-adcf-39e3df452ed6}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created &amp;gt; Customer Orders Record &amp;gt; Customer &amp;gt; Name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_f0e75323-dfc4-4e79-adcf-39e3df452ed6" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;!&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="font-size: 12pt;"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="font-size: 12pt;"&gt;Thank you for picking up order&amp;nbsp;&lt;/span&gt;&lt;span class="data_pill  accepts_transform_functions" style="background-color: #d9ebee;" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:f440ddd5-346a-4427-901f-7f7add8f982e}}"&gt;&lt;span class="data-pill-content-container" style="padding-right: 0px; padding-left: 0px;"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Customer Orders Record &amp;gt; Number"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Number&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_f440ddd5-346a-4427-901f-7f7add8f982e" class="transform_function_facade no_transform_applied" style="margin-left: 8px; opacity: 1; border: 1px solid #315d67;"&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="font-size: 12pt;"&gt;&amp;nbsp;at Meal Connections HQ.&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Thank you for helping reduce waste! Your conscious effort keeps the world cleaner every single day.&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>860af28247c3391095cbdffe046d4360</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>4e0af28247c3391095cbdffe046d4362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>860af28247c3391095cbdffe046d4360</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>420af28247c3391095cbdffe046d4362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.customer.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>860af28247c3391095cbdffe046d4360</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>c60af28247c3391095cbdffe046d4362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>860af28247c3391095cbdffe046d4360</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>8a0af28247c3391095cbdffe046d4362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=860af28247c3391095cbdffe046d4360"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=860af28247c3391095cbdffe046d4360"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Customer Workflow with Time Delay">060af28247c3391095cbdffe046d4315</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>8a0af28247c3391095cbdffe046d434c</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-19 05:48:54</sys_updated_on>
+        <ui_id>90433fbb-ebd9-4fe7-92a6-5c136f5d0052</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8a0af28247c3391095cbdffe046d434c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8a0af28247c3391095cbdffe046d434c</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>420af28247c3391095cbdffe046d4350</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <value>Your Order is Ready to be Picked Up from Meal Connections!</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8a0af28247c3391095cbdffe046d434c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>8e0af28247c3391095cbdffe046d434f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <value>x_1152827_meal_c_0_customer_orders</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8a0af28247c3391095cbdffe046d434c</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>ca0af28247c3391095cbdffe046d434f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8a0af28247c3391095cbdffe046d434c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>8a0af28247c3391095cbdffe046d434c</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>020af28247c3391095cbdffe046d434f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:09:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Hello, &lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:b10d7ba9-b3eb-400c-ae7d-b3e5fe6b22ed}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:b10d7ba9-b3eb-400c-ae7d-b3e5fe6b22ed}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger - Record Created &amp;gt; Customer Orders Record &amp;gt; Customer &amp;gt; Name"&gt;&lt;span class="pill-start"&gt;Trigger - Record Created&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_b10d7ba9-b3eb-400c-ae7d-b3e5fe6b22ed" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;!&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Your order is ready to be picked up at Meal Connections HQ.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Your order number is:&amp;nbsp;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:f440ddd5-346a-4427-901f-7f7add8f982e}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Customer Orders Record &amp;gt; Number"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Number&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_f440ddd5-346a-4427-901f-7f7add8f982e" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;. Please pick up your order before the end of&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:3079bc0e-68ec-4a69-8a60-71a61e29c981}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:3079bc0e-68ec-4a69-8a60-71a61e29c981}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-for="ah_tooltipTop" data-tip="Trigger &amp;gt; Customer Orders Record &amp;gt; Date Ordered"&gt;&lt;span class="pill-start"&gt;Trigger&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Date Ordered&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_3079bc0e-68ec-4a69-8a60-71a61e29c981" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;.&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;Thank you for helping reduce waste! Your conscious effort keeps the world cleaner every single day.&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>8a0af28247c3391095cbdffe046d434c</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>4a0af28247c3391095cbdffe046d434f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>8a0af28247c3391095cbdffe046d434c</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>4e0af28247c3391095cbdffe046d434e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current.customer.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>8a0af28247c3391095cbdffe046d434c</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>c20af28247c3391095cbdffe046d434f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>8a0af28247c3391095cbdffe046d434c</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>860af28247c3391095cbdffe046d434f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8a0af28247c3391095cbdffe046d434c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8a0af28247c3391095cbdffe046d434c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Customer Workflow with Time Delay">060af28247c3391095cbdffe046d4315</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>8a0af28247c3391095cbdffe046d4357</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-19 05:48:54</sys_updated_on>
+        <ui_id>489f3149-f814-4ffd-81fe-4aefce9cf6a6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8a0af28247c3391095cbdffe046d4357"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8a0af28247c3391095cbdffe046d4357</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>020af28247c3391095cbdffe046d435a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <value>x_1152827_meal_c_0_customer_orders</value>
+        <variable display_value="Table">45ce8a4187120010663ca1bb36cb0bea</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8a0af28247c3391095cbdffe046d4357</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>4e0af28247c3391095cbdffe046d4359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <value>state=picked_up^ORstate=canceled</value>
+        <variable display_value="Conditions">49ce8a4187120010663ca1bb36cb0bef</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8a0af28247c3391095cbdffe046d4357"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>8a0af28247c3391095cbdffe046d4357</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>0a0af28247c3391095cbdffe046d4359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>8a0af28247c3391095cbdffe046d4357</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>460af28247c3391095cbdffe046d4359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>8a0af28247c3391095cbdffe046d4357</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>ca0af28247c3391095cbdffe046d4359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8a0af28247c3391095cbdffe046d4357"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8a0af28247c3391095cbdffe046d4357"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=060af28247c3391095cbdffe046d4315"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=060af28247c3391095cbdffe046d4315^sys_idNOT IN4a0af28247c3391095cbdffe046d4333,860af28247c3391095cbdffe046d433b,ce0af28247c3391095cbdffe046d433f"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">5cf3b6ca4783391095cbdffe046d434e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Customer Workflow with Time Delay">060af28247c3391095cbdffe046d4315</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:31</sys_created_on>
+        <sys_id>4a0af28247c3391095cbdffe046d4333</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-19 05:48:54</sys_updated_on>
+        <ui_id>b8ee2aee-4428-429e-aa6a-8e9be05aff63</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=4a0af28247c3391095cbdffe046d4333"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>4a0af28247c3391095cbdffe046d4333</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:31</sys_created_on>
+        <sys_id>0a0af28247c3391095cbdffe046d433a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:31</sys_updated_on>
+        <value>1970-01-01 00:00:15</value>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>4a0af28247c3391095cbdffe046d4333</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:31</sys_created_on>
+        <sys_id>460af28247c3391095cbdffe046d433a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:31</sys_updated_on>
+        <value/>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_fdb2541473031300b61e66476bf6a70e^id=4a0af28247c3391095cbdffe046d4333"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=4a0af28247c3391095cbdffe046d4333"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4a0af28247c3391095cbdffe046d4333"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">3718bace4783391095cbdffe046d433b</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Customer Workflow with Time Delay">060af28247c3391095cbdffe046d4315</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:31</sys_created_on>
+        <sys_id>860af28247c3391095cbdffe046d433b</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-19 05:48:54</sys_updated_on>
+        <ui_id>a456008f-ea18-456b-a8ed-06c4c5113e5a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=860af28247c3391095cbdffe046d433b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>860af28247c3391095cbdffe046d433b</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>420af28247c3391095cbdffe046d433f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <value>State = Picked Up</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=860af28247c3391095cbdffe046d433b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>860af28247c3391095cbdffe046d433b</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>ce0af28247c3391095cbdffe046d433e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Created_1.current.state}}=picked_up</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>860af28247c3391095cbdffe046d433b</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>0e0af28247c3391095cbdffe046d433e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=860af28247c3391095cbdffe046d433b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=860af28247c3391095cbdffe046d433b"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">7718bace4783391095cbdffe046d4361</block>
+        <comment/>
+        <connected_to>a456008f-ea18-456b-a8ed-06c4c5113e5a</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Customer Workflow with Time Delay">060af28247c3391095cbdffe046d4315</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>ce0af28247c3391095cbdffe046d433f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-19 05:48:54</sys_updated_on>
+        <ui_id>511506ea-0646-4afd-92a5-ffa256b8b23a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ce0af28247c3391095cbdffe046d433f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>ce0af28247c3391095cbdffe046d433f</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>ca0af28247c3391095cbdffe046d4343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <value>State = Canceled</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ce0af28247c3391095cbdffe046d433f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>ce0af28247c3391095cbdffe046d433f</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>4a0af28247c3391095cbdffe046d4343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value>{{Created_1.current.state}}=canceled</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>ce0af28247c3391095cbdffe046d433f</id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>860af28247c3391095cbdffe046d4343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ce0af28247c3391095cbdffe046d433f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ce0af28247c3391095cbdffe046d433f"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=060af28247c3391095cbdffe046d4315^sys_idNOT IN190b3ac247c3391095cbdffe046d43b1,560af28247c3391095cbdffe046d436f,5a0af28247c3391095cbdffe046d436f,5a0af28247c3391095cbdffe046d4388,5e0af28247c3391095cbdffe046d436e,d20af28247c3391095cbdffe046d436f,d60af28247c3391095cbdffe046d436f,da0af28247c3391095cbdffe046d4388"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>060af28247c3391095cbdffe046d4315</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.date_ordered}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:09:50</sys_created_on>
+        <sys_id>190b3ac247c3391095cbdffe046d43b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:09:50</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>3079bc0e-68ec-4a69-8a60-71a61e29c981</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>060af28247c3391095cbdffe046d4315</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>560af28247c3391095cbdffe046d436f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>e241e06b-9904-42fb-a6da-f8cb9c7832bc</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>060af28247c3391095cbdffe046d4315</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.customer.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>5a0af28247c3391095cbdffe046d436f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>1c99471c-b545-40bc-853f-1f4c3bc28ac2</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>060af28247c3391095cbdffe046d4315</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>2889e612-d001-4341-ab4f-c8b13d76e678</source_ui_id>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>5a0af28247c3391095cbdffe046d4388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <transform_compositions>[{"id":"5094327dc73333003884f80bf4c2600a","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"date_format","label":"Output Date Format","order":0,"attributes":{},"value":"yyyy-MM-dd","type":"choice","defaultValue":null,"typeLabel":null,"mandatory":true,"choices":[{"label":"-- None --","value":"","order":1},{"label":"Custom (enter below)","value":"NULL_OVERRIDE","order":2},{"label":"ISO Date (2004-06-28)","value":"yyyy-MM-dd","order":3},{"label":"ISO Date/Time (2004-06-28T17:34:10Z)","value":"yyyy-MM-dd'T'HH:mm:ss'Z'","order":4},{"label":"ServiceNow Date/Time (2004-06-28 17:34:10)","value":"yyyy-MM-dd HH:mm:ss","order":5},{"label":"EEE, MMM dd, yyyy (Mon, Jun 28, 2004)","value":"EEE, MMM dd, yyyy","order":6},{"label":"EEE, MMM dd, yyyy h:mm a (Mon, Jun 28, 2004 5:34 PM)","value":"EEE, MMM dd, yyyy h:mm a","order":7},{"label":"MM-dd-yyyy (06-28-2004)","value":"MM-dd-yyyy","order":8},{"label":"MM-dd-yyyy h:mm a (06-28-2004 5:34 PM)","value":"MM-dd-yyyy h:mm a","order":9},{"label":"MM-dd-yyyy HH:mm:ss (06-28-2004 17:34:10)","value":"MM-dd-yyyy HH:mm:ss","order":10},{"label":"MM/dd/yyyy (06/28/2004)","value":"MM/dd/yyyy","order":11},{"label":"MM/dd/yyyy h:mm a (06/28/2004 5:34 PM)","value":"MM/dd/yyyy h:mm a","order":12},{"label":"MM/dd/yyyy HH:mm:ss (06/28/2004 15:34:10)","value":"MM/dd/yyyy HH:mm:ss","order":13},{"label":"MMM dd, yyyy (Jun 28, 2004)","value":"MMM dd, yyyy","order":14},{"label":"MMM dd, yyyy h:mm a (Jun 28, 2004 5:34 PM)","value":"MMM dd, yyyy h:mm a","order":15},{"label":"yyyy-MM-dd h:mm a (2004-06-28 5:34 PM)","value":"yyyy-MM-dd h:mm a","order":16},{"label":"yyyy/MM/dd (2004/06/28)","value":"yyyy/MM/dd","order":17},{"label":"yyyy/MM/dd h:mm a (2004/06/28 5:34 PM)","value":"yyyy/MM/dd h:mm a","order":18},{"label":"yyyy/MM/dd HH:mm:ss (2004/06/28 17:34:10)","value":"yyyy/MM/dd HH:mm:ss","order":19}]},{"id":null,"name":"custom_format","label":"Custom Format","order":1,"attributes":{},"value":"","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="date_to_string">4e343e3dc73333003884f80bf4c26096</transform_definition_id>
+        <ui_id>e9d520b1-dc8f-4cb3-97bb-ad259731bd87</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>060af28247c3391095cbdffe046d4315</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>5e0af28247c3391095cbdffe046d436e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>f440ddd5-346a-4427-901f-7f7add8f982e</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>060af28247c3391095cbdffe046d4315</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.customer.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>d20af28247c3391095cbdffe046d436f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b10d7ba9-b3eb-400c-ae7d-b3e5fe6b22ed</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>060af28247c3391095cbdffe046d4315</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{b8ee2aee-4428-429e-aa6a-8e9be05aff63.scheduled_end_date_time}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>d60af28247c3391095cbdffe046d436f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>2889e612-d001-4341-ab4f-c8b13d76e678</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>060af28247c3391095cbdffe046d4315</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.customer.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:32</sys_created_on>
+        <sys_id>da0af28247c3391095cbdffe046d4388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:32</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>f0e75323-dfc4-4e79-adcf-39e3df452ed6</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=060af28247c3391095cbdffe046d4315"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_060af28247c3391095cbdffe046d4315^sys_idNOT INc60af28247c3391095cbdffe046d432c,ce0af28247c3391095cbdffe046d4323"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_060af28247c3391095cbdffe046d4315</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:31</sys_created_on>
+        <sys_id>c60af28247c3391095cbdffe046d432c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_060af28247c3391095cbdffe046d4315</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 06:05:31</sys_created_on>
+        <sys_id>ce0af28247c3391095cbdffe046d4323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 06:05:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_060af28247c3391095cbdffe046d4315"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_060af28247c3391095cbdffe046d4315"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_060af28247c3391095cbdffe046d4315"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>a3317e0a4783391095cbdffe046d433c</sys_id>
+        <latest_snapshot>060af28247c3391095cbdffe046d4315</latest_snapshot>
+        <compiler_build>glide-tokyo-07-08-2022__patch10-hotfix1a-09-18-2023_10-06-2023_1603.zip</compiler_build>
+    </sys_hub_flow>
+</record_update>

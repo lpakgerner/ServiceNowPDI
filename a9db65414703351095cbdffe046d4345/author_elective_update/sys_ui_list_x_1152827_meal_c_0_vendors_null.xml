@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_1152827_meal_c_0_vendors" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_1152827_meal_c_0_vendors" element="NULL" name="x_1152827_meal_c_0_vendors" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c553aa594783751095cbdffe046d4300</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>ebalogun</sys_created_by>
+            <sys_created_on>2023-12-10 20:30:53</sys_created_on>
+            <sys_id>4553aa594783751095cbdffe046d4301</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ebalogun</sys_updated_by>
+            <sys_updated_on>2023-12-10 20:30:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="x_1152827_meal_c_0_vendors" element="NULL" name="x_1152827_meal_c_0_vendors" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c553aa594783751095cbdffe046d4300</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>ebalogun</sys_created_by>
+            <sys_created_on>2023-12-10 20:30:53</sys_created_on>
+            <sys_id>c953aa594783751095cbdffe046d4301</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ebalogun</sys_updated_by>
+            <sys_updated_on>2023-12-10 20:30:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>company</element>
+            <list_id display_value="x_1152827_meal_c_0_vendors" element="NULL" name="x_1152827_meal_c_0_vendors" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c553aa594783751095cbdffe046d4300</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>ebalogun</sys_created_by>
+            <sys_created_on>2023-12-10 20:30:53</sys_created_on>
+            <sys_id>4d53aa594783751095cbdffe046d4301</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ebalogun</sys_updated_by>
+            <sys_updated_on>2023-12-10 20:30:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>email</element>
+            <list_id display_value="x_1152827_meal_c_0_vendors" element="NULL" name="x_1152827_meal_c_0_vendors" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c553aa594783751095cbdffe046d4300</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>ebalogun</sys_created_by>
+            <sys_created_on>2023-12-10 20:30:53</sys_created_on>
+            <sys_id>cd53aa594783751095cbdffe046d4301</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ebalogun</sys_updated_by>
+            <sys_updated_on>2023-12-10 20:30:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>groups</element>
+            <list_id display_value="x_1152827_meal_c_0_vendors" element="NULL" name="x_1152827_meal_c_0_vendors" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c553aa594783751095cbdffe046d4300</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>ebalogun</sys_created_by>
+            <sys_created_on>2023-12-10 20:30:53</sys_created_on>
+            <sys_id>4153aa594783751095cbdffe046d4302</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ebalogun</sys_updated_by>
+            <sys_updated_on>2023-12-10 20:30:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>phone_number</element>
+            <list_id display_value="x_1152827_meal_c_0_vendors" element="NULL" name="x_1152827_meal_c_0_vendors" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c553aa594783751095cbdffe046d4300</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>ebalogun</sys_created_by>
+            <sys_created_on>2023-12-10 20:30:53</sys_created_on>
+            <sys_id>c153aa594783751095cbdffe046d4302</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ebalogun</sys_updated_by>
+            <sys_updated_on>2023-12-10 20:30:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>roles</element>
+            <list_id display_value="x_1152827_meal_c_0_vendors" element="NULL" name="x_1152827_meal_c_0_vendors" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c553aa594783751095cbdffe046d4300</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>ebalogun</sys_created_by>
+            <sys_created_on>2023-12-10 20:30:53</sys_created_on>
+            <sys_id>4553aa594783751095cbdffe046d4302</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ebalogun</sys_updated_by>
+            <sys_updated_on>2023-12-10 20:30:53</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1152827_meal_c_0_vendors</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>ebalogun</sys_created_by>
+            <sys_created_on>2023-12-10 20:30:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c553aa594783751095cbdffe046d4300</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1152827_meal_c_0_vendors</sys_name>
+            <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+            <sys_update_name>sys_ui_list_x_1152827_meal_c_0_vendors_null</sys_update_name>
+            <sys_updated_by>ebalogun</sys_updated_by>
+            <sys_updated_on>2023-12-10 20:30:53</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Meal Connections">a9db65414703351095cbdffe046d4345</application>
+        <file_path/>
+        <instance_id>6b8c4db3db4660d052cec597059619ac</instance_id>
+        <instance_name>dev106281</instance_name>
+        <name>sys_ui_list_x_1152827_meal_c_0_vendors_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_1152827_meal_c_0_vendors" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>number</element><list_id display_value="x_1152827_meal_c_0_vendors" element="NULL" name="x_1152827_meal_c_0_vendors" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c553aa594783751095cbdffe046d4300</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>ebalogun</sys_created_by><sys_created_on>2023-12-10 20:30:53</sys_created_on><sys_id>4553aa594783751095cbdffe046d4301</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ebalogun</sys_updated_by><sys_updated_on>2023-12-10 20:30:53</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>name</element><list_id display_value="x_1152827_meal_c_0_vendors" element="NULL" name="x_1152827_meal_c_0_vendors" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c553aa594783751095cbdffe046d4300</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>ebalogun</sys_created_by><sys_created_on>2023-12-10 20:30:53</sys_created_on><sys_id>c953aa594783751095cbdffe046d4301</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ebalogun</sys_updated_by><sys_updated_on>2023-12-10 20:30:53</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>company</element><list_id display_value="x_1152827_meal_c_0_vendors" element="NULL" name="x_1152827_meal_c_0_vendors" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c553aa594783751095cbdffe046d4300</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>ebalogun</sys_created_by><sys_created_on>2023-12-10 20:30:53</sys_created_on><sys_id>4d53aa594783751095cbdffe046d4301</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ebalogun</sys_updated_by><sys_updated_on>2023-12-10 20:30:53</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>email</element><list_id display_value="x_1152827_meal_c_0_vendors" element="NULL" name="x_1152827_meal_c_0_vendors" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c553aa594783751095cbdffe046d4300</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>ebalogun</sys_created_by><sys_created_on>2023-12-10 20:30:53</sys_created_on><sys_id>cd53aa594783751095cbdffe046d4301</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ebalogun</sys_updated_by><sys_updated_on>2023-12-10 20:30:53</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>groups</element><list_id display_value="x_1152827_meal_c_0_vendors" element="NULL" name="x_1152827_meal_c_0_vendors" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c553aa594783751095cbdffe046d4300</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>ebalogun</sys_created_by><sys_created_on>2023-12-10 20:30:53</sys_created_on><sys_id>4153aa594783751095cbdffe046d4302</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ebalogun</sys_updated_by><sys_updated_on>2023-12-10 20:30:53</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>phone_number</element><list_id display_value="x_1152827_meal_c_0_vendors" element="NULL" name="x_1152827_meal_c_0_vendors" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c553aa594783751095cbdffe046d4300</list_id><max_value>false</max_value><min_value>false</min_value><position>5</position><sum>false</sum><sys_created_by>ebalogun</sys_created_by><sys_created_on>2023-12-10 20:30:53</sys_created_on><sys_id>c153aa594783751095cbdffe046d4302</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ebalogun</sys_updated_by><sys_updated_on>2023-12-10 20:30:53</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>roles</element><list_id display_value="x_1152827_meal_c_0_vendors" element="NULL" name="x_1152827_meal_c_0_vendors" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c553aa594783751095cbdffe046d4300</list_id><max_value>false</max_value><min_value>false</min_value><position>6</position><sum>false</sum><sys_created_by>ebalogun</sys_created_by><sys_created_on>2023-12-10 20:30:53</sys_created_on><sys_id>4553aa594783751095cbdffe046d4302</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>ebalogun</sys_updated_by><sys_updated_on>2023-12-10 20:30:53</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_1152827_meal_c_0_vendors</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>ebalogun</sys_created_by><sys_created_on>2023-12-10 20:30:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c553aa594783751095cbdffe046d4300</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1152827_meal_c_0_vendors</sys_name><sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package><sys_policy/><sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope><sys_update_name>sys_ui_list_x_1152827_meal_c_0_vendors_null</sys_update_name><sys_updated_by>ebalogun</sys_updated_by><sys_updated_on>2023-12-10 20:30:53</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>1086686610</payload_hash>
+        <record_name>Vendors</record_name>
+        <reverted_from/>
+        <source>2ddb65414703351095cbdffe046d4347</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ebalogun</sys_created_by>
+        <sys_created_on>2023-12-10 20:30:53</sys_created_on>
+        <sys_id>8553aa594783751095cbdffe046d4304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c556cf7d30000001</sys_recorded_at>
+        <sys_updated_by>ebalogun</sys_updated_by>
+        <sys_updated_on>2023-12-10 20:30:53</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>4553aa59dd837510ff3999bdb2e0b004</update_guid>
+        <update_guid_history>4553aa59dd837510ff3999bdb2e0b004:1086686610</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 00:42:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>1df39e9b33e14f2a8b729566d9345a04</sys_id>
+        <sys_metadata>c553aa594783751095cbdffe046d4300</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1152827_meal_c_0_vendors</sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_parent display_value="">381322594783751095cbdffe046d434b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_scope_delete display_value="">53bfa4b1387943839cbd1b0b16819761</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_1152827_meal_c_0_vendors_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_1152827_meal_c_0_vendors_null">8553aa594783751095cbdffe046d4304</sys_update_version>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 00:42:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

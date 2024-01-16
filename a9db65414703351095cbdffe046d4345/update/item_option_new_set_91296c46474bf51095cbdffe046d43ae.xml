@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="INSERT_OR_UPDATE">
+        <create_roles/>
+        <description>Standard questions for grocery vendors</description>
+        <display_title>false</display_title>
+        <internal_name>vendor_standard_questions</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>lpakgerner</sys_created_by>
+        <sys_created_on>2023-12-12 19:33:11</sys_created_on>
+        <sys_id>91296c46474bf51095cbdffe046d43ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vendor Standard Questions</sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_update_name>item_option_new_set_91296c46474bf51095cbdffe046d43ae</sys_update_name>
+        <sys_updated_by>lpakgerner</sys_updated_by>
+        <sys_updated_on>2023-12-12 19:33:11</sys_updated_on>
+        <title>Vendor Standard Questions</title>
+        <type>one_to_one</type>
+        <write_roles/>
+    </item_option_new_set>
+</record_update>

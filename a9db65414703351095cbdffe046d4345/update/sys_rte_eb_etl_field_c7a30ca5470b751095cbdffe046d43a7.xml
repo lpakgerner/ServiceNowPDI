@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_field">
+    <sys_rte_eb_etl_field action="INSERT_OR_UPDATE">
+        <coalesce>false</coalesce>
+        <coercion_action>create</coercion_action>
+        <field>u_days_until_expired</field>
+        <name>Days Until Expired</name>
+        <sys_class_name>sys_rte_eb_etl_field</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-11 03:31:49</sys_created_on>
+        <sys_id>c7a30ca5470b751095cbdffe046d43a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Days Until Expired</sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Available Food First Data_etl_ihub">0ba388a5470b751095cbdffe046d4384</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="Source_x_1152827_meal_c_0_ihub_import_6d3380a5470b751095cbdffe046d43eb">0ba388a5470b751095cbdffe046d438b</sys_rte_eb_entity>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_update_name>sys_rte_eb_etl_field_c7a30ca5470b751095cbdffe046d43a7</sys_update_name>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-11 03:31:49</sys_updated_on>
+    </sys_rte_eb_etl_field>
+</record_update>

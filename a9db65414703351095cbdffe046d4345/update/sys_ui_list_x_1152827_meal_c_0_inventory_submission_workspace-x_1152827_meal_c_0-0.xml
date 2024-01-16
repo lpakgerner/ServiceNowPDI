@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1152827_meal_c_0_inventory_submission" version="2" view="Workspace-Meal-Connections-Driver-Assignments-0">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_1152827_meal_c_0_inventory_submission" element="NULL" name="x_1152827_meal_c_0_inventory_submission" parent="NULL" relationship="NULL" sys_domain="global" view="ed9666ff6a4bbd104be65d1760c24d6e">28a6aaff474bbd1095cbdffe046d4325</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-18 15:10:09</sys_created_on>
+            <sys_id>60a6aaff474bbd1095cbdffe046d4326</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-18 15:10:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>vendor</element>
+            <list_id display_value="x_1152827_meal_c_0_inventory_submission" element="NULL" name="x_1152827_meal_c_0_inventory_submission" parent="NULL" relationship="NULL" sys_domain="global" view="ed9666ff6a4bbd104be65d1760c24d6e">28a6aaff474bbd1095cbdffe046d4325</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-18 15:10:09</sys_created_on>
+            <sys_id>64a6aaff474bbd1095cbdffe046d4326</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-18 15:10:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="x_1152827_meal_c_0_inventory_submission" element="NULL" name="x_1152827_meal_c_0_inventory_submission" parent="NULL" relationship="NULL" sys_domain="global" view="ed9666ff6a4bbd104be65d1760c24d6e">28a6aaff474bbd1095cbdffe046d4325</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-18 15:10:09</sys_created_on>
+            <sys_id>68a6aaff474bbd1095cbdffe046d4326</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-18 15:10:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>vendor.street</element>
+            <list_id display_value="x_1152827_meal_c_0_inventory_submission" element="NULL" name="x_1152827_meal_c_0_inventory_submission" parent="NULL" relationship="NULL" sys_domain="global" view="ed9666ff6a4bbd104be65d1760c24d6e">28a6aaff474bbd1095cbdffe046d4325</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-18 15:10:09</sys_created_on>
+            <sys_id>6ca6aaff474bbd1095cbdffe046d4326</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-18 15:10:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1152827_meal_c_0_inventory_submission</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-18 15:10:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>28a6aaff474bbd1095cbdffe046d4325</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1152827_meal_c_0_inventory_submission</sys_name>
+            <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+            <sys_update_name>sys_ui_list_x_1152827_meal_c_0_inventory_submission_Workspace-x_1152827_meal_c_0-0</sys_update_name>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-18 15:10:09</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Meal Connections Driver Assignments 0" name="Workspace-Meal-Connections-Driver-Assignments-0">ed9666ff6a4bbd104be65d1760c24d6e</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

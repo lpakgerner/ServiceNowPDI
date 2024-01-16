@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>700</order>
+        <published_ref/>
+        <question display_value="Please indicate category for Food Item #2">0daa57924707791095cbdffe046d43e9</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>lpakgerner</sys_created_by>
+        <sys_created_on>2023-12-14 03:08:33</sys_created_on>
+        <sys_id>6b1b5f924707791095cbdffe046d437c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Non-Perishables</sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_update_name>question_choice_6b1b5f924707791095cbdffe046d437c</sys_update_name>
+        <sys_updated_by>lpakgerner</sys_updated_by>
+        <sys_updated_on>2023-12-14 03:08:33</sys_updated_on>
+        <text>Non-Perishables</text>
+        <value>non_perishables</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=6b1b5f924707791095cbdffe046d437c"/>
+</record_update>

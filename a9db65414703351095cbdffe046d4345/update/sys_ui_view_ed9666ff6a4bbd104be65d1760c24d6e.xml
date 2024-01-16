@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>Workspace-Meal-Connections-Driver-Assignments-0</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>lpakgerner</sys_created_by>
+        <sys_created_on>2023-12-18 15:09:57</sys_created_on>
+        <sys_id>ed9666ff6a4bbd104be65d1760c24d6e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Workspace Meal Connections Driver Assignments 0</sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_update_name>sys_ui_view_ed9666ff6a4bbd104be65d1760c24d6e</sys_update_name>
+        <sys_updated_by>lpakgerner</sys_updated_by>
+        <sys_updated_on>2023-12-18 15:10:09</sys_updated_on>
+        <title>Workspace Meal Connections Driver Assignments 0</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

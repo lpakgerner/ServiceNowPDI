@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="food_item_1" label="Food Item #1" language="en" table="x_1152827_meal_c_0_inventory_submission">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>food_item_1</element>
+            <help/>
+            <hint/>
+            <label>Food Item #1</label>
+            <language>en</language>
+            <name>x_1152827_meal_c_0_inventory_submission</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-14 02:52:12</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Food Item #1</sys_name>
+            <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+            <sys_update_name>sys_documentation_x_1152827_meal_c_0_inventory_submission_food_item_1_en</sys_update_name>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-14 02:52:15</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

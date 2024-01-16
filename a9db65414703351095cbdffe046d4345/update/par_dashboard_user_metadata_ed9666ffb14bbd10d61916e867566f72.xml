@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_user_metadata">
+    <par_dashboard_user_metadata action="INSERT_OR_UPDATE">
+        <created_by_user display_value="Linder Pak-Gerner">3b3352dc4747711095cbdffe046d4301</created_by_user>
+        <created_on>2022-05-29 16:29:20</created_on>
+        <dashboard display_value="Meal Connections Driver Assignments">e59666ffc44bbd108234f8c0c0f7366c</dashboard>
+        <last_updated_on>2022-05-29 16:56:20</last_updated_on>
+        <requested_by_user/>
+        <sys_class_name>par_dashboard_user_metadata</sys_class_name>
+        <sys_created_by>lpakgerner</sys_created_by>
+        <sys_created_on>2023-12-18 15:09:57</sys_created_on>
+        <sys_id>ed9666ffb14bbd10d61916e867566f72</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_update_name>par_dashboard_user_metadata_ed9666ffb14bbd10d61916e867566f72</sys_update_name>
+        <sys_updated_by>lpakgerner</sys_updated_by>
+        <sys_updated_on>2023-12-18 15:09:59</sys_updated_on>
+        <updated_by_user display_value="Linder Pak-Gerner">3b3352dc4747711095cbdffe046d4301</updated_by_user>
+    </par_dashboard_user_metadata>
+</record_update>

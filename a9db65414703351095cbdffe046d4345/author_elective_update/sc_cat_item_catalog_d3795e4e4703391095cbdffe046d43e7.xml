@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Customer Form Test">ab399a4e4703391095cbdffe046d435c</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>lpakgerner</sys_created_by>
+        <sys_created_on>2023-12-13 03:43:21</sys_created_on>
+        <sys_id>d3795e4e4703391095cbdffe046d43e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Customer Form Test</sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_d3795e4e4703391095cbdffe046d43e7</sys_update_name>
+        <sys_updated_by>lpakgerner</sys_updated_by>
+        <sys_updated_on>2023-12-13 03:43:21</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Meal Connections">a9db65414703351095cbdffe046d4345</application>
+        <file_path/>
+        <instance_id>6b8c4db3db4660d052cec597059619ac</instance_id>
+        <instance_name>dev106281</instance_name>
+        <name>sc_cat_item_catalog_d3795e4e4703391095cbdffe046d43e7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="DELETE"><sc_cat_item display_value="Customer Form Test">ab399a4e4703391095cbdffe046d435c</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>lpakgerner</sys_created_by><sys_created_on>2023-12-13 03:43:21</sys_created_on><sys_id>d3795e4e4703391095cbdffe046d43e7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Customer Form Test</sys_name><sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package><sys_policy/><sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope><sys_update_name>sc_cat_item_catalog_d3795e4e4703391095cbdffe046d43e7</sys_update_name><sys_updated_by>lpakgerner</sys_updated_by><sys_updated_on>2023-12-13 03:43:21</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-854215708</payload_hash>
+        <record_name>Service Catalog.Customer Form Test</record_name>
+        <reverted_from/>
+        <source>192c1e024743391095cbdffe046d434a</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-12-13 03:54:57</sys_created_on>
+        <sys_id>d92c1e024743391095cbdffe046d434f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c61503b3c0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-12-13 03:54:57</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>9d2c1e02b9433910e7a9b5fb2057824e</update_guid>
+        <update_guid_history>9d2c1e02b9433910e7a9b5fb2057824e:-854215708,1b795e4e85033910f5f1fe1cf0dbe4e9:-1771698704</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Customer Form Test">112c1e024743391095cbdffe046d4353</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-12-13 03:54:57</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>1fa8d9c1d6fd4afa8c710ca0cc54f604</sys_id>
+        <sys_metadata>d3795e4e4703391095cbdffe046d43e7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Customer Form Test</sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_parent display_value="">ab399a4e4703391095cbdffe046d435c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_scope_delete display_value="">53bfa4b1387943839cbd1b0b16819761</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_d3795e4e4703391095cbdffe046d43e7</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_d3795e4e4703391095cbdffe046d43e7">d92c1e024743391095cbdffe046d434f</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-12-13 03:54:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Meal Connnections Customer Order ">a9dace4e47cff51095cbdffe046d437a</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 02:52:42</sys_created_on>
+        <sys_id>d9ed8e424703391095cbdffe046d4396</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Meal Connnections Customer Order .Any User</sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_d9ed8e424703391095cbdffe046d4396</sys_update_name>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 02:52:42</sys_updated_on>
+        <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Meal Connections">a9db65414703351095cbdffe046d4345</application>
+        <file_path/>
+        <instance_id>6b8c4db3db4660d052cec597059619ac</instance_id>
+        <instance_name>dev106281</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_d9ed8e424703391095cbdffe046d4396</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Meal Connnections Customer Order ">a9dace4e47cff51095cbdffe046d437a</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>sbaccam</sys_created_by><sys_created_on>2023-12-13 02:52:42</sys_created_on><sys_id>d9ed8e424703391095cbdffe046d4396</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Meal Connnections Customer Order .Any User</sys_name><sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package><sys_policy/><sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_d9ed8e424703391095cbdffe046d4396</sys_update_name><sys_updated_by>sbaccam</sys_updated_by><sys_updated_on>2023-12-13 02:52:42</sys_updated_on><user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>-337802938</payload_hash>
+        <record_name>Meal Connnections Customer Order .Any User</record_name>
+        <reverted_from/>
+        <source>2ddb65414703351095cbdffe046d4347</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 02:52:42</sys_created_on>
+        <sys_id>19ed8e424703391095cbdffe046d4399</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c61173d7b0000001</sys_recorded_at>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 02:52:42</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>9ded8e420d0339107fbe67b20dd53198</update_guid>
+        <update_guid_history>9ded8e420d0339107fbe67b20dd53198:-337802938</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Meal Connnections Customer Order .Any User">50fd02824703391095cbdffe046d431a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 02:52:54</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>2993d753086e46e68952651078d2b9e4</sys_id>
+        <sys_metadata>d9ed8e424703391095cbdffe046d4396</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Meal Connnections Customer Order .Any User</sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_scope_delete display_value="">53bfa4b1387943839cbd1b0b16819761</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_d9ed8e424703391095cbdffe046d4396</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_d9ed8e424703391095cbdffe046d4396">19ed8e424703391095cbdffe046d4399</sys_update_version>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 02:52:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

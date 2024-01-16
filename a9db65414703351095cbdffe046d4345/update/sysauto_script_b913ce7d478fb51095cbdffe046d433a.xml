@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time>1970-01-01 00:00:00</entered_time>
+        <name>Days Left Before Expiration Countdown</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Sabrina Baccam">8070da1c4747711095cbdffe046d4352</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2023-12-12 07:27:00</run_start>
+        <run_time>1970-01-01 06:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[var gr = new GlideRecord("x_1152827_meal_c_0_testing");
+gr.addActiveQuery();
+gr.query();
+while(gr.next()){
+	var exp = gr.days_until_expired - 1;
+	gr.days_until_expired = exp;
+	gr.update();
+} ]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-12 08:01:24</sys_created_on>
+        <sys_id>b913ce7d478fb51095cbdffe046d433a</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Days Left Before Expiration Countdown</sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_update_name>sysauto_script_b913ce7d478fb51095cbdffe046d433a</sys_update_name>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-12 09:19:49</sys_updated_on>
+        <time_zone>US/Central</time_zone>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

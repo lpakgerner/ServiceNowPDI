@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="u_meal_connections_food_inventory_pickup_orders" version="2" view="meal_connections">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_name</element>
+            <list_id display_value="u_meal_connections_food_inventory_pickup_orders" element="NULL" name="u_meal_connections_food_inventory_pickup_orders" parent="NULL" relationship="NULL" sys_domain="global" view="67b6ff314787f51095cbdffe046d4319">e911c50e478bf51095cbdffe046d4326</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-12 21:17:07</sys_created_on>
+            <sys_id>a511c50e478bf51095cbdffe046d4328</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-12 21:17:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_company</element>
+            <list_id display_value="u_meal_connections_food_inventory_pickup_orders" element="NULL" name="u_meal_connections_food_inventory_pickup_orders" parent="NULL" relationship="NULL" sys_domain="global" view="67b6ff314787f51095cbdffe046d4319">e911c50e478bf51095cbdffe046d4326</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-12 21:17:07</sys_created_on>
+            <sys_id>ed11c50e478bf51095cbdffe046d4328</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-12 21:17:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_date_placed</element>
+            <list_id display_value="u_meal_connections_food_inventory_pickup_orders" element="NULL" name="u_meal_connections_food_inventory_pickup_orders" parent="NULL" relationship="NULL" sys_domain="global" view="67b6ff314787f51095cbdffe046d4319">e911c50e478bf51095cbdffe046d4326</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-12 21:17:07</sys_created_on>
+            <sys_id>e111c50e478bf51095cbdffe046d4329</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-12 21:17:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_short_description</element>
+            <list_id display_value="u_meal_connections_food_inventory_pickup_orders" element="NULL" name="u_meal_connections_food_inventory_pickup_orders" parent="NULL" relationship="NULL" sys_domain="global" view="67b6ff314787f51095cbdffe046d4319">e911c50e478bf51095cbdffe046d4326</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-12 21:17:07</sys_created_on>
+            <sys_id>e511c50e478bf51095cbdffe046d4329</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-12 21:17:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_state</element>
+            <list_id display_value="u_meal_connections_food_inventory_pickup_orders" element="NULL" name="u_meal_connections_food_inventory_pickup_orders" parent="NULL" relationship="NULL" sys_domain="global" view="67b6ff314787f51095cbdffe046d4319">e911c50e478bf51095cbdffe046d4326</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-12 21:17:07</sys_created_on>
+            <sys_id>e911c50e478bf51095cbdffe046d4329</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-12 21:17:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_user</element>
+            <list_id display_value="u_meal_connections_food_inventory_pickup_orders" element="NULL" name="u_meal_connections_food_inventory_pickup_orders" parent="NULL" relationship="NULL" sys_domain="global" view="67b6ff314787f51095cbdffe046d4319">e911c50e478bf51095cbdffe046d4326</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-12 21:17:07</sys_created_on>
+            <sys_id>ed11c50e478bf51095cbdffe046d4329</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-12 21:17:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_work_notes</element>
+            <list_id display_value="u_meal_connections_food_inventory_pickup_orders" element="NULL" name="u_meal_connections_food_inventory_pickup_orders" parent="NULL" relationship="NULL" sys_domain="global" view="67b6ff314787f51095cbdffe046d4319">e911c50e478bf51095cbdffe046d4326</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-12 21:17:07</sys_created_on>
+            <sys_id>e111c50e478bf51095cbdffe046d432a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-12 21:17:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_assigned_driver</element>
+            <list_id display_value="u_meal_connections_food_inventory_pickup_orders" element="NULL" name="u_meal_connections_food_inventory_pickup_orders" parent="NULL" relationship="NULL" sys_domain="global" view="67b6ff314787f51095cbdffe046d4319">e911c50e478bf51095cbdffe046d4326</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-12 21:17:07</sys_created_on>
+            <sys_id>e511458e478bf51095cbdffe046d437b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-12 21:17:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_food_offering</element>
+            <list_id display_value="u_meal_connections_food_inventory_pickup_orders" element="NULL" name="u_meal_connections_food_inventory_pickup_orders" parent="NULL" relationship="NULL" sys_domain="global" view="67b6ff314787f51095cbdffe046d4319">e911c50e478bf51095cbdffe046d4326</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-12 21:17:07</sys_created_on>
+            <sys_id>e911458e478bf51095cbdffe046d437b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-12 21:17:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>u_meal_connections_food_inventory_pickup_orders</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-12 21:17:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e911c50e478bf51095cbdffe046d4326</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_meal_connections_food_inventory_pickup_orders</sys_name>
+            <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+            <sys_update_name>sys_ui_list_u_meal_connections_food_inventory_pickup_orders_meal_connections</sys_update_name>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-12 21:17:07</sys_updated_on>
+            <sys_user/>
+            <view display_value="Meal Connections" name="meal_connections">67b6ff314787f51095cbdffe046d4319</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Meal Connections">a9db65414703351095cbdffe046d4345</application>
+        <file_path/>
+        <instance_id>6b8c4db3db4660d052cec597059619ac</instance_id>
+        <instance_name>dev106281</instance_name>
+        <name>sys_ui_list_u_meal_connections_food_inventory_pickup_orders_meal_connections</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="u_meal_connections_food_inventory_pickup_orders" version="2" view="meal_connections"><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_name</element><list_id display_value="u_meal_connections_food_inventory_pickup_orders" element="NULL" name="u_meal_connections_food_inventory_pickup_orders" parent="NULL" relationship="NULL" sys_domain="global" view="67b6ff314787f51095cbdffe046d4319">e911c50e478bf51095cbdffe046d4326</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>lpakgerner</sys_created_by><sys_created_on>2023-12-12 21:17:07</sys_created_on><sys_id>a511c50e478bf51095cbdffe046d4328</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>lpakgerner</sys_updated_by><sys_updated_on>2023-12-12 21:17:07</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_company</element><list_id display_value="u_meal_connections_food_inventory_pickup_orders" element="NULL" name="u_meal_connections_food_inventory_pickup_orders" parent="NULL" relationship="NULL" sys_domain="global" view="67b6ff314787f51095cbdffe046d4319">e911c50e478bf51095cbdffe046d4326</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>lpakgerner</sys_created_by><sys_created_on>2023-12-12 21:17:07</sys_created_on><sys_id>ed11c50e478bf51095cbdffe046d4328</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>lpakgerner</sys_updated_by><sys_updated_on>2023-12-12 21:17:07</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_date_placed</element><list_id display_value="u_meal_connections_food_inventory_pickup_orders" element="NULL" name="u_meal_connections_food_inventory_pickup_orders" parent="NULL" relationship="NULL" sys_domain="global" view="67b6ff314787f51095cbdffe046d4319">e911c50e478bf51095cbdffe046d4326</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>lpakgerner</sys_created_by><sys_created_on>2023-12-12 21:17:07</sys_created_on><sys_id>e111c50e478bf51095cbdffe046d4329</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>lpakgerner</sys_updated_by><sys_updated_on>2023-12-12 21:17:07</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_short_description</element><list_id display_value="u_meal_connections_food_inventory_pickup_orders" element="NULL" name="u_meal_connections_food_inventory_pickup_orders" parent="NULL" relationship="NULL" sys_domain="global" view="67b6ff314787f51095cbdffe046d4319">e911c50e478bf51095cbdffe046d4326</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>lpakgerner</sys_created_by><sys_created_on>2023-12-12 21:17:07</sys_created_on><sys_id>e511c50e478bf51095cbdffe046d4329</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>lpakgerner</sys_updated_by><sys_updated_on>2023-12-12 21:17:07</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_state</element><list_id display_value="u_meal_connections_food_inventory_pickup_orders" element="NULL" name="u_meal_connections_food_inventory_pickup_orders" parent="NULL" relationship="NULL" sys_domain="global" view="67b6ff314787f51095cbdffe046d4319">e911c50e478bf51095cbdffe046d4326</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>lpakgerner</sys_created_by><sys_created_on>2023-12-12 21:17:07</sys_created_on><sys_id>e911c50e478bf51095cbdffe046d4329</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>lpakgerner</sys_updated_by><sys_updated_on>2023-12-12 21:17:07</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_user</element><list_id display_value="u_meal_connections_food_inventory_pickup_orders" element="NULL" name="u_meal_connections_food_inventory_pickup_orders" parent="NULL" relationship="NULL" sys_domain="global" view="67b6ff314787f51095cbdffe046d4319">e911c50e478bf51095cbdffe046d4326</list_id><max_value>false</max_value><min_value>false</min_value><position>5</position><sum>false</sum><sys_created_by>lpakgerner</sys_created_by><sys_created_on>2023-12-12 21:17:07</sys_created_on><sys_id>ed11c50e478bf51095cbdffe046d4329</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>lpakgerner</sys_updated_by><sys_updated_on>2023-12-12 21:17:07</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_work_notes</element><list_id display_value="u_meal_connections_food_inventory_pickup_orders" element="NULL" name="u_meal_connections_food_inventory_pickup_orders" parent="NULL" relationship="NULL" sys_domain="global" view="67b6ff314787f51095cbdffe046d4319">e911c50e478bf51095cbdffe046d4326</list_id><max_value>false</max_value><min_value>false</min_value><position>6</position><sum>false</sum><sys_created_by>lpakgerner</sys_created_by><sys_created_on>2023-12-12 21:17:07</sys_created_on><sys_id>e111c50e478bf51095cbdffe046d432a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>lpakgerner</sys_updated_by><sys_updated_on>2023-12-12 21:17:07</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_assigned_driver</element><list_id display_value="u_meal_connections_food_inventory_pickup_orders" element="NULL" name="u_meal_connections_food_inventory_pickup_orders" parent="NULL" relationship="NULL" sys_domain="global" view="67b6ff314787f51095cbdffe046d4319">e911c50e478bf51095cbdffe046d4326</list_id><max_value>false</max_value><min_value>false</min_value><position>7</position><sum>false</sum><sys_created_by>lpakgerner</sys_created_by><sys_created_on>2023-12-12 21:17:07</sys_created_on><sys_id>e511458e478bf51095cbdffe046d437b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>lpakgerner</sys_updated_by><sys_updated_on>2023-12-12 21:17:07</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_food_offering</element><list_id display_value="u_meal_connections_food_inventory_pickup_orders" element="NULL" name="u_meal_connections_food_inventory_pickup_orders" parent="NULL" relationship="NULL" sys_domain="global" view="67b6ff314787f51095cbdffe046d4319">e911c50e478bf51095cbdffe046d4326</list_id><max_value>false</max_value><min_value>false</min_value><position>8</position><sum>false</sum><sys_created_by>lpakgerner</sys_created_by><sys_created_on>2023-12-12 21:17:07</sys_created_on><sys_id>e911458e478bf51095cbdffe046d437b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>lpakgerner</sys_updated_by><sys_updated_on>2023-12-12 21:17:07</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>u_meal_connections_food_inventory_pickup_orders</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>lpakgerner</sys_created_by><sys_created_on>2023-12-12 21:17:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e911c50e478bf51095cbdffe046d4326</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_meal_connections_food_inventory_pickup_orders</sys_name><sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package><sys_policy/><sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope><sys_update_name>sys_ui_list_u_meal_connections_food_inventory_pickup_orders_meal_connections</sys_update_name><sys_updated_by>lpakgerner</sys_updated_by><sys_updated_on>2023-12-12 21:17:07</sys_updated_on><sys_user/><view display_value="Meal Connections" name="meal_connections">67b6ff314787f51095cbdffe046d4319</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>529334007</payload_hash>
+        <record_name>Meal Connections Food Inventory Pickup Orders</record_name>
+        <reverted_from/>
+        <source>2ddb65414703351095cbdffe046d4347</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>lpakgerner</sys_created_by>
+        <sys_created_on>2023-12-12 21:17:07</sys_created_on>
+        <sys_id>6511458e478bf51095cbdffe046d437e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c5fe400cc0000001</sys_recorded_at>
+        <sys_updated_by>lpakgerner</sys_updated_by>
+        <sys_updated_on>2023-12-12 21:17:07</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>ed11458e4c8bf5104311cfb21c6b027d</update_guid>
+        <update_guid_history>ed11458e4c8bf5104311cfb21c6b027d:529334007</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-18 06:04:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>2f04dc9b9352415899ddc19ed46c7190</sys_id>
+        <sys_metadata>e911c50e478bf51095cbdffe046d4326</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_meal_connections_food_inventory_pickup_orders</sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_parent display_value="">b081f6c14707351095cbdffe046d4302</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_scope_delete display_value="">53bfa4b1387943839cbd1b0b16819761</sys_scope_delete>
+        <sys_update_name>sys_ui_list_u_meal_connections_food_inventory_pickup_orders_meal_connections</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_u_meal_connections_food_inventory_pickup_orders_meal_connections">6511458e478bf51095cbdffe046d437e</sys_update_version>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-18 06:04:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

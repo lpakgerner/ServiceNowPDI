@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_report">
+    <sysauto_report action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <address_list/>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <group_list name="Meal Connections ">6d49a839474bb51095cbdffe046d43c7</group_list>
+        <include_detail>false</include_detail>
+        <include_with/>
+        <name>Scheduled execution of Good vs Expired Donut Graph</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <omit_if_no_records>false</omit_if_no_records>
+        <output_type>PDF-landscape</output_type>
+        <page_height_in_pixels>612</page_height_in_pixels>
+        <page_size>Letter</page_size>
+        <page_width_in_pixels>792</page_width_in_pixels>
+        <report display_value="Good vs Expired Donut Graph">0c8bb48747c7f91095cbdffe046d43e4</report>
+        <report_body><![CDATA[<p>Hi team,</p>
+<p>here is the daily report of the quality of our inventory.</p>
+<p>&nbsp;</p>]]></report_body>
+        <report_title>Good vs Expired daily food report</report_title>
+        <run_as display_value="Linder Pak-Gerner">3b3352dc4747711095cbdffe046d4301</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2023-12-16 02:42:46</run_start>
+        <run_time>1970-01-01 20:00:00</run_time>
+        <run_type>daily</run_type>
+        <sys_class_name>sysauto_report</sys_class_name>
+        <sys_created_by>lpakgerner</sys_created_by>
+        <sys_created_on>2023-12-16 02:46:33</sys_created_on>
+        <sys_id>dd68258b478bf91095cbdffe046d4338</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Scheduled execution of Good vs Expired Donut Graph</sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_update_name>sysauto_report_dd68258b478bf91095cbdffe046d4338</sys_update_name>
+        <sys_updated_by>lpakgerner</sys_updated_by>
+        <sys_updated_on>2023-12-16 02:46:33</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+        <user_list>771ea41d47cb351095cbdffe046d433e</user_list>
+        <zip>false</zip>
+    </sysauto_report>
+</record_update>

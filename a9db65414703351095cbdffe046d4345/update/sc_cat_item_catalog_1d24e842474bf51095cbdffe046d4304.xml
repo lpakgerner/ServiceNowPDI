@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Grocery Vendor Inventory Donation">74d36442474bf51095cbdffe046d4331</sc_cat_item>
+        <sc_catalog display_value="Meal Connections Community">b0a26cce470bf51095cbdffe046d43e6</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>lpakgerner</sys_created_by>
+        <sys_created_on>2023-12-12 19:10:40</sys_created_on>
+        <sys_id>1d24e842474bf51095cbdffe046d4304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Meal Connections Community.Grocery Vendor Inventory Donation</sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_1d24e842474bf51095cbdffe046d4304</sys_update_name>
+        <sys_updated_by>lpakgerner</sys_updated_by>
+        <sys_updated_on>2023-12-12 19:10:40</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>
