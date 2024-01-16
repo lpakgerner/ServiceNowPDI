@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>ih_import_FD3f4304a5e80b7510dd6c7f576cc147d7</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>a9db65414703351095cbdffe046d4345</scope_name>
+        <serialized_content>{"FlowDesigner:ih_import_FD3f4304a5e80b7510dd6c7f576cc147d7":{"u_priority":"String","u_priority.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Priority\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_days_until_expired":"Integer","u_days_until_expired.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"integer\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Days Until Expired\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_expiration_date":"String","u_expiration_date.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Expiration Date\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_food_items":"String","u_food_items.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Food Items\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_is_expired_":"String","u_is_expired_.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Is Expired?\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_quantity":"Integer","u_quantity.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"integer\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Quantity\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"},"u_type":"String","u_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"string\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Type\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"}},"FlowDesigner:ih_import_FD3f4304a5e80b7510dd6c7f576cc147d7.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"object\",\"co_type_name\":\"ih_import_FD3f4304a5e80b7510dd6c7f576cc147d7\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Excel Header\",\"mandatory\":\"false\",\"order\":\"0\",\"max_length\":\"0\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-11 03:30:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bf4304a5470b751095cbdffe046d43d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ih_import_FD3f4304a5e80b7510dd6c7f576cc147d7</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_update_name>sys_complex_object_bf4304a5470b751095cbdffe046d43d7</sys_update_name>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-11 03:30:14</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

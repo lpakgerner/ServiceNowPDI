@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="state" label="State" language="en" table="x_1152827_meal_c_0_customer_orders">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <help/>
+            <hint/>
+            <label>State</label>
+            <language>en</language>
+            <name>x_1152827_meal_c_0_customer_orders</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>sbaccam</sys_created_by>
+            <sys_created_on>2023-12-13 02:00:19</sys_created_on>
+            <sys_id>1ee18ac247cff51095cbdffe046d43fd</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>State</sys_name>
+            <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+            <sys_update_name>sys_documentation_x_1152827_meal_c_0_customer_orders_state_en</sys_update_name>
+            <sys_updated_by>sbaccam</sys_updated_by>
+            <sys_updated_on>2023-12-13 02:02:38</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

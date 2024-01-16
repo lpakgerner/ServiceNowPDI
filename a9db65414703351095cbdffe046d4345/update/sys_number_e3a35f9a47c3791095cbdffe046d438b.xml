@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_1152827_meal_c_0_inventory_submission">x_1152827_meal_c_0_inventory_submission</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>INVSUB</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>lpakgerner</sys_created_by>
+        <sys_created_on>2023-12-14 02:36:04</sys_created_on>
+        <sys_id>e3a35f9a47c3791095cbdffe046d438b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>INVSUB</sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_update_name>sys_number_e3a35f9a47c3791095cbdffe046d438b</sys_update_name>
+        <sys_updated_by>lpakgerner</sys_updated_by>
+        <sys_updated_on>2023-12-14 02:36:04</sys_updated_on>
+    </sys_number>
+</record_update>

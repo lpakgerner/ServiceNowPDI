@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA Meal Connection Mana - New Tab">7ef152a247cf791095cbdffe046d4365</grid_canvas>
+        <height>18</height>
+        <portal_widget display_value="Created 2023-12-15 15:26:54">c09b348747c7f91095cbdffe046d43de</portal_widget>
+        <posx>0</posx>
+        <posy>18</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>clandry</sys_created_by>
+        <sys_created_on>2023-12-15 23:26:54</sys_created_on>
+        <sys_id>cc9bf88747c7f91095cbdffe046d437f</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>7ef152a247cf791095cbdffe046d4365</sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_cc9bf88747c7f91095cbdffe046d437f</sys_update_name>
+        <sys_updated_by>clandry</sys_updated_by>
+        <sys_updated_on>2023-12-19 01:14:13</sys_updated_on>
+        <width>6</width>
+    </sys_grid_canvas_pane>
+</record_update>

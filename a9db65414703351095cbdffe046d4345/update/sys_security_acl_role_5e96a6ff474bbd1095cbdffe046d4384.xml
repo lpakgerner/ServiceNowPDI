@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>lpakgerner</sys_created_by>
+        <sys_created_on>2023-12-18 15:09:59</sys_created_on>
+        <sys_id>5e96a6ff474bbd1095cbdffe046d4384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x.1152827.meal-connections-driver-assignments.*.x_1152827_meal_c_0.admin</sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_security_acl display_value="x.1152827.meal-connections-driver-assignments.*">619666ffaa4bbd10791592fdf6ad8b72</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_5e96a6ff474bbd1095cbdffe046d4384</sys_update_name>
+        <sys_updated_by>lpakgerner</sys_updated_by>
+        <sys_updated_on>2023-12-18 15:09:59</sys_updated_on>
+        <sys_user_role display_value="x_1152827_meal_c_0.admin" name="x_1152827_meal_c_0.admin">2ddb65414703351095cbdffe046d434b</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

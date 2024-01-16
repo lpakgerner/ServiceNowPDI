@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="food_item_1" table="x_1152827_meal_c_0_meal_connections_available_food" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>food_item_1</element>
+            <name>x_1152827_meal_c_0_meal_connections_available_food</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-12 21:28:23</sys_created_on>
+            <sys_id>36a38d0247cbf51095cbdffe046d4384</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>food_item_1</sys_name>
+            <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+            <sys_update_name>sys_choice_x_1152827_meal_c_0_meal_connections_available_food_food_item_1</sys_update_name>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-12 21:28:23</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>food_item_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bread, Rice, Noodles &amp; Pasta</label>
+            <language>en</language>
+            <name>x_1152827_meal_c_0_meal_connections_available_food</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-12 21:29:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6cc3054247cbf51095cbdffe046d43b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-12 21:29:03</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>food_item_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Canned/Jarred/Boxed Goods</label>
+            <language>en</language>
+            <name>x_1152827_meal_c_0_meal_connections_available_food</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-12 21:28:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>89b3054247cbf51095cbdffe046d4332</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-12 21:28:47</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>food_item_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dairy &amp; Eggs</label>
+            <language>en</language>
+            <name>x_1152827_meal_c_0_meal_connections_available_food</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-12 21:28:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>48430d0247cbf51095cbdffe046d4347</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-12 21:28:23</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>food_item_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fruits</label>
+            <language>en</language>
+            <name>x_1152827_meal_c_0_meal_connections_available_food</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-12 21:29:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a0d38d4247cbf51095cbdffe046d437d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-12 21:29:09</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>food_item_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Meat &amp; Beans</label>
+            <language>en</language>
+            <name>x_1152827_meal_c_0_meal_connections_available_food</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-12 21:28:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eea3054247cbf51095cbdffe046d43b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-12 21:28:32</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>food_item_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Non-Perishables</label>
+            <language>en</language>
+            <name>x_1152827_meal_c_0_meal_connections_available_food</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-12 21:29:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>33d3494247cbf51095cbdffe046d435d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-12 21:29:24</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>food_item_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Oils</label>
+            <language>en</language>
+            <name>x_1152827_meal_c_0_meal_connections_available_food</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-12 21:29:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e1e3054247cbf51095cbdffe046d43a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-12 21:29:32</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>food_item_1</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vegetables</label>
+            <language>en</language>
+            <name>x_1152827_meal_c_0_meal_connections_available_food</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-12 21:29:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cad3054247cbf51095cbdffe046d43b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-12 21:29:17</sys_updated_on>
+            <value/>
+        </sys_choice>
+    </sys_choice>
+</record_update>

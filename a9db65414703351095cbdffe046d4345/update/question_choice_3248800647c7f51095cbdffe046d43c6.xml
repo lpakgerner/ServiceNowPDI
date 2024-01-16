@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Food Donation #2">1b264c0247c7f51095cbdffe046d4369</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>lpakgerner</sys_created_by>
+        <sys_created_on>2023-12-12 17:08:58</sys_created_on>
+        <sys_id>3248800647c7f51095cbdffe046d43c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dairy &amp; Eggs</sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_update_name>question_choice_3248800647c7f51095cbdffe046d43c6</sys_update_name>
+        <sys_updated_by>lpakgerner</sys_updated_by>
+        <sys_updated_on>2023-12-12 17:08:58</sys_updated_on>
+        <text>Dairy &amp; Eggs</text>
+        <value>dairy_eggs</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=3248800647c7f51095cbdffe046d43c6"/>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping">
+    <sys_rte_eb_field_mapping action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <referenced_sys_rte_eb_entity/>
+        <source_sys_rte_eb_field display_value="Quantity">c3a30ca5470b751095cbdffe046d43ae</source_sys_rte_eb_field>
+        <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-11 03:32:39</sys_created_on>
+        <sys_id>17d300e5470b751095cbdffe046d43bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Available Food First Data_etl_ihub">0ba388a5470b751095cbdffe046d4384</sys_rte_eb_definition>
+        <sys_rte_eb_entity_mapping display_value="IHUB_SOURCE_TEMP_MAPPING">1bd300e5470b751095cbdffe046d43af</sys_rte_eb_entity_mapping>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_update_name>sys_rte_eb_field_mapping_17d300e5470b751095cbdffe046d43bb</sys_update_name>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-11 03:32:39</sys_updated_on>
+        <target_sys_rte_eb_field display_value="Quantity_sn_ihub_target_quantity">83d300e5470b751095cbdffe046d4379</target_sys_rte_eb_field>
+    </sys_rte_eb_field_mapping>
+</record_update>
