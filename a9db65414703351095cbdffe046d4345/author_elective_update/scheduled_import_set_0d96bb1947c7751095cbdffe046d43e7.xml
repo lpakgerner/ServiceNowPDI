@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="scheduled_import_set">
+    <scheduled_import_set action="DELETE">
+        <active>true</active>
+        <business_calendar/>
+        <concurrent_import>false</concurrent_import>
+        <condition/>
+        <conditional>false</conditional>
+        <connection_override/>
+        <data_source display_value="Meal Connections Available Food">0d65731947c7751095cbdffe046d4367</data_source>
+        <entered_time/>
+        <map/>
+        <name>Scheduled Run Once</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <order/>
+        <parent/>
+        <partition_method>roundRobin</partition_method>
+        <partition_script><![CDATA[(function partitionHash(import_set_row) {
+
+	// Add your code here
+	
+	// eg:
+	// return import_set_row.u_important_category;
+	// This would ensure all rows with the same 'u_important_category' value will be in the same Import Set.
+
+	 return import_set_row.sys_import_row;
+
+})(import_set_row);]]></partition_script>
+        <partition_size/>
+        <post_script/>
+        <post_script_bool>false</post_script_bool>
+        <pre_script/>
+        <pre_script_bool>false</pre_script_bool>
+        <record_source>ihimport</record_source>
+        <run_as display_value="Sabrina Baccam">8070da1c4747711095cbdffe046d4352</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2023-12-11 02:34:37</run_start>
+        <run_time/>
+        <run_type>once</run_type>
+        <show_connection_override>false</show_connection_override>
+        <synchronize_inserts>true</synchronize_inserts>
+        <sys_class_name>scheduled_import_set</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-11 02:34:37</sys_created_on>
+        <sys_id>0d96bb1947c7751095cbdffe046d43e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Scheduled Run Once</sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_update_name>scheduled_import_set_0d96bb1947c7751095cbdffe046d43e7</sys_update_name>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-11 02:34:37</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+        <use_child_connection>false</use_child_connection>
+    </scheduled_import_set>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Meal Connections">a9db65414703351095cbdffe046d4345</application>
+        <file_path/>
+        <instance_id>6b8c4db3db4660d052cec597059619ac</instance_id>
+        <instance_name>dev106281</instance_name>
+        <name>scheduled_import_set_0d96bb1947c7751095cbdffe046d43e7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="scheduled_import_set"&gt;&lt;scheduled_import_set action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;business_calendar/&gt;&lt;concurrent_import&gt;false&lt;/concurrent_import&gt;&lt;condition/&gt;&lt;conditional&gt;false&lt;/conditional&gt;&lt;connection_override/&gt;&lt;data_source display_value="Meal Connections Available Food"&gt;0d65731947c7751095cbdffe046d4367&lt;/data_source&gt;&lt;entered_time/&gt;&lt;map/&gt;&lt;name&gt;Scheduled Run Once&lt;/name&gt;&lt;offset/&gt;&lt;offset_type&gt;0&lt;/offset_type&gt;&lt;order/&gt;&lt;parent/&gt;&lt;partition_method&gt;roundRobin&lt;/partition_method&gt;&lt;partition_script&gt;&lt;![CDATA[(function partitionHash(import_set_row) {
+
+	// Add your code here
+	
+	// eg:
+	// return import_set_row.u_important_category;
+	// This would ensure all rows with the same 'u_important_category' value will be in the same Import Set.
+
+	 return import_set_row.sys_import_row;
+
+})(import_set_row);]]&gt;&lt;/partition_script&gt;&lt;partition_size/&gt;&lt;post_script/&gt;&lt;post_script_bool&gt;false&lt;/post_script_bool&gt;&lt;pre_script/&gt;&lt;pre_script_bool&gt;false&lt;/pre_script_bool&gt;&lt;record_source&gt;ihimport&lt;/record_source&gt;&lt;run_as display_value="Sabrina Baccam"&gt;8070da1c4747711095cbdffe046d4352&lt;/run_as&gt;&lt;run_as_tz/&gt;&lt;run_dayofmonth&gt;1&lt;/run_dayofmonth&gt;&lt;run_dayofweek/&gt;&lt;run_period/&gt;&lt;run_start&gt;2023-12-11 02:34:37&lt;/run_start&gt;&lt;run_time/&gt;&lt;run_type&gt;once&lt;/run_type&gt;&lt;show_connection_override&gt;false&lt;/show_connection_override&gt;&lt;synchronize_inserts&gt;true&lt;/synchronize_inserts&gt;&lt;sys_class_name&gt;scheduled_import_set&lt;/sys_class_name&gt;&lt;sys_created_by&gt;sbaccam&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-11 02:34:37&lt;/sys_created_on&gt;&lt;sys_id&gt;0d96bb1947c7751095cbdffe046d43e7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Scheduled Run Once&lt;/sys_name&gt;&lt;sys_package display_value="Meal Connections" source="x_1152827_meal_c_0"&gt;a9db65414703351095cbdffe046d4345&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Meal Connections"&gt;a9db65414703351095cbdffe046d4345&lt;/sys_scope&gt;&lt;sys_update_name&gt;scheduled_import_set_0d96bb1947c7751095cbdffe046d43e7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;sbaccam&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-11 02:34:37&lt;/sys_updated_on&gt;&lt;time_zone/&gt;&lt;upgrade_safe&gt;false&lt;/upgrade_safe&gt;&lt;use_child_connection&gt;false&lt;/use_child_connection&gt;&lt;/scheduled_import_set&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1398896537</payload_hash>
+        <record_name>Scheduled Run Once</record_name>
+        <reverted_from/>
+        <source>2ddb65414703351095cbdffe046d4347</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-11 02:34:37</sys_created_on>
+        <sys_id>8d96775947c7751095cbdffe046d43fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c56b9f8a00000001</sys_recorded_at>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-11 02:34:37</sys_updated_on>
+        <type>Scheduled Data Import</type>
+        <update_guid>c996bb1996c775100f4f60ee37f9edea</update_guid>
+        <update_guid_history>c996bb1996c775100f4f60ee37f9edea:1398896537</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Scheduled Run Once">3d7000e1470b751095cbdffe046d4329</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-12-11 03:17:49</sys_created_on>
+        <sys_db_object display_value="" name="scheduled_import_set">scheduled_import_set</sys_db_object>
+        <sys_id>0a4e5ec96917440693ca5221333811c4</sys_id>
+        <sys_metadata>0d96bb1947c7751095cbdffe046d43e7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Scheduled Run Once</sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_scope_delete display_value="">53bfa4b1387943839cbd1b0b16819761</sys_scope_delete>
+        <sys_update_name>scheduled_import_set_0d96bb1947c7751095cbdffe046d43e7</sys_update_name>
+        <sys_update_version display_value="scheduled_import_set_0d96bb1947c7751095cbdffe046d43e7">8d96775947c7751095cbdffe046d43fe</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-12-11 03:17:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -47,7 +47,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>sbaccam</sys_created_by>
         <sys_created_on>2023-12-11 03:17:13</sys_created_on>
-        <sys_id>815048a1470b751095cbdffe046d43c2</sys_id>
         <sys_name>Food Items</sys_name>
         <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
         <sys_policy/>

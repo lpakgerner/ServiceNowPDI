@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>lpakgerner</sys_created_by>
+        <sys_created_on>2023-12-10 21:07:41</sys_created_on>
+        <sys_id>08cb62d147c3751095cbdffe046d4300</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1152827_meal_c_0_meal_connections_team.x_1152827_meal_c_0.admin</sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_security_acl display_value="x_1152827_meal_c_0_meal_connections_team">44cb22d147c3751095cbdffe046d43fe</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_08cb62d147c3751095cbdffe046d4300</sys_update_name>
+        <sys_updated_by>lpakgerner</sys_updated_by>
+        <sys_updated_on>2023-12-10 21:07:41</sys_updated_on>
+        <sys_user_role display_value="x_1152827_meal_c_0.admin" name="x_1152827_meal_c_0.admin">2ddb65414703351095cbdffe046d434b</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Meal Connections">a9db65414703351095cbdffe046d4345</application>
+        <file_path/>
+        <instance_id>6b8c4db3db4660d052cec597059619ac</instance_id>
+        <instance_name>dev106281</instance_name>
+        <name>sys_security_acl_role_08cb62d147c3751095cbdffe046d4300</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>lpakgerner</sys_created_by><sys_created_on>2023-12-10 21:07:41</sys_created_on><sys_id>08cb62d147c3751095cbdffe046d4300</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1152827_meal_c_0_meal_connections_team.x_1152827_meal_c_0.admin</sys_name><sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package><sys_policy/><sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope><sys_security_acl display_value="x_1152827_meal_c_0_meal_connections_team">44cb22d147c3751095cbdffe046d43fe</sys_security_acl><sys_update_name>sys_security_acl_role_08cb62d147c3751095cbdffe046d4300</sys_update_name><sys_updated_by>lpakgerner</sys_updated_by><sys_updated_on>2023-12-10 21:07:41</sys_updated_on><sys_user_role display_value="x_1152827_meal_c_0.admin" name="x_1152827_meal_c_0.admin">2ddb65414703351095cbdffe046d434b</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>644339544</payload_hash>
+        <record_name>x_1152827_meal_c_0_meal_connections_team.x_1152827_meal_c_0.admin</record_name>
+        <reverted_from/>
+        <source>2ddb65414703351095cbdffe046d4347</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>lpakgerner</sys_created_by>
+        <sys_created_on>2023-12-10 21:07:41</sys_created_on>
+        <sys_id>48cb62d147c3751095cbdffe046d4302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c558ea8af0000001</sys_recorded_at>
+        <sys_updated_by>lpakgerner</sys_updated_by>
+        <sys_updated_on>2023-12-10 21:07:41</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>80cb62d10dc37510e3e9f48ea2597102</update_guid>
+        <update_guid_history>80cb62d10dc37510e3e9f48ea2597102:644339544</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1152827_meal_c_0_meal_connections_team.x_1152827_meal_c_0.admin">2f0035ce474ff51095cbdffe046d435c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 00:42:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>2e82d19d78e44e96b39275f0a1c65321</sys_id>
+        <sys_metadata>08cb62d147c3751095cbdffe046d4300</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1152827_meal_c_0_meal_connections_team.x_1152827_meal_c_0.admin</sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_parent display_value="">44cb22d147c3751095cbdffe046d43fe</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_scope_delete display_value="">53bfa4b1387943839cbd1b0b16819761</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_08cb62d147c3751095cbdffe046d4300</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_08cb62d147c3751095cbdffe046d4300">48cb62d147c3751095cbdffe046d4302</sys_update_version>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 00:42:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

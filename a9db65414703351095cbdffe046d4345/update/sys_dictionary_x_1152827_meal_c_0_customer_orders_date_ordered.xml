@@ -47,7 +47,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>sbaccam</sys_created_by>
         <sys_created_on>2023-12-13 02:00:20</sys_created_on>
-        <sys_id>1ae1cac247cff51095cbdffe046d430e</sys_id>
         <sys_name>Date Ordered</sys_name>
         <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
         <sys_policy/>

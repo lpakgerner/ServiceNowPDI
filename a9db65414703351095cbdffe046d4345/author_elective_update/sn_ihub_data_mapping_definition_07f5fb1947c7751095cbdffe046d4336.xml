@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ihub_data_mapping_definition">
+    <sn_ihub_data_mapping_definition action="DELETE">
+        <integration_table>sys_data_source</integration_table>
+        <published_source_structure/>
+        <record_id>0d65731947c7751095cbdffe046d4367</record_id>
+        <source_structure/>
+        <sys_class_name>sn_ihub_data_mapping_definition</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-11 02:32:02</sys_created_on>
+        <sys_id>07f5fb1947c7751095cbdffe046d4336</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_update_name>sn_ihub_data_mapping_definition_07f5fb1947c7751095cbdffe046d4336</sys_update_name>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-11 02:32:59</sys_updated_on>
+    </sn_ihub_data_mapping_definition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Meal Connections">a9db65414703351095cbdffe046d4345</application>
+        <file_path/>
+        <instance_id>6b8c4db3db4660d052cec597059619ac</instance_id>
+        <instance_name>dev106281</instance_name>
+        <name>sn_ihub_data_mapping_definition_07f5fb1947c7751095cbdffe046d4336</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ihub_data_mapping_definition"><sn_ihub_data_mapping_definition action="INSERT_OR_UPDATE"><integration_table>sys_data_source</integration_table><published_source_structure/><record_id>0d65731947c7751095cbdffe046d4367</record_id><source_structure/><sys_class_name>sn_ihub_data_mapping_definition</sys_class_name><sys_created_by>sbaccam</sys_created_by><sys_created_on>2023-12-11 02:32:02</sys_created_on><sys_id>07f5fb1947c7751095cbdffe046d4336</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package><sys_policy/><sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope><sys_update_name>sn_ihub_data_mapping_definition_07f5fb1947c7751095cbdffe046d4336</sys_update_name><sys_updated_by>sbaccam</sys_updated_by><sys_updated_on>2023-12-11 02:32:59</sys_updated_on></sn_ihub_data_mapping_definition></record_update>]]></payload>
+        <payload_hash>-1814476877</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>7ce12cb6d4a3211095d7c105f1bf439b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-12-11 03:17:49</sys_created_on>
+        <sys_id>397000e1470b751095cbdffe046d4332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c56e185760000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-12-11 03:17:49</sys_updated_on>
+        <type>Integration Data Mapping Definition</type>
+        <update_guid>757000e1480b7510155984b327179732</update_guid>
+        <update_guid_history>757000e1480b7510155984b327179732:0,fd7000e1e50b751076ba7280b0eccc2f:0,89363fd5a6c7751096301bcb1f080320:-1148084780,2a06fb192ec77510adeee8bca0adb0e0:-317217537,0ff5fb199fc775104df14280f2719e37:748233099</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">c67000e1470b751095cbdffe046d4337</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-12-11 03:17:49</sys_created_on>
+        <sys_db_object display_value="" name="sn_ihub_data_mapping_definition">sn_ihub_data_mapping_definition</sys_db_object>
+        <sys_id>0e67d400aaa9491eac5300fba23c8709</sys_id>
+        <sys_metadata>07f5fb1947c7751095cbdffe046d4336</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_scope_delete display_value="">53bfa4b1387943839cbd1b0b16819761</sys_scope_delete>
+        <sys_update_name>sn_ihub_data_mapping_definition_07f5fb1947c7751095cbdffe046d4336</sys_update_name>
+        <sys_update_version display_value="sn_ihub_data_mapping_definition_07f5fb1947c7751095cbdffe046d4336">397000e1470b751095cbdffe046d4332</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-12-11 03:17:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>100</order>
+        <sc_cat_item display_value="Grocery Vendor Inventory Donation">74d36442474bf51095cbdffe046d4331</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>lpakgerner</sys_created_by>
+        <sys_created_on>2023-12-12 19:44:28</sys_created_on>
+        <sys_id>28eb684a474bf51095cbdffe046d43bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vendor Standard Questions.Grocery Vendor Inventory Donation</sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_update_name>io_set_item_28eb684a474bf51095cbdffe046d43bc</sys_update_name>
+        <sys_updated_by>lpakgerner</sys_updated_by>
+        <sys_updated_on>2023-12-12 19:44:28</sys_updated_on>
+        <variable_set display_value="Vendor Standard Questions">91296c46474bf51095cbdffe046d43ae</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Meal Connections">a9db65414703351095cbdffe046d4345</application>
+        <file_path/>
+        <instance_id>6b8c4db3db4660d052cec597059619ac</instance_id>
+        <instance_name>dev106281</instance_name>
+        <name>io_set_item_28eb684a474bf51095cbdffe046d43bc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>100</order><sc_cat_item display_value="Grocery Vendor Inventory Donation">74d36442474bf51095cbdffe046d4331</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>lpakgerner</sys_created_by><sys_created_on>2023-12-12 19:44:28</sys_created_on><sys_id>28eb684a474bf51095cbdffe046d43bc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Vendor Standard Questions.Grocery Vendor Inventory Donation</sys_name><sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package><sys_policy/><sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope><sys_update_name>io_set_item_28eb684a474bf51095cbdffe046d43bc</sys_update_name><sys_updated_by>lpakgerner</sys_updated_by><sys_updated_on>2023-12-12 19:44:28</sys_updated_on><variable_set display_value="Vendor Standard Questions">91296c46474bf51095cbdffe046d43ae</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>-366689420</payload_hash>
+        <record_name>Vendor Standard Questions.Grocery Vendor Inventory Donation</record_name>
+        <reverted_from/>
+        <source>2ddb65414703351095cbdffe046d4347</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>lpakgerner</sys_created_by>
+        <sys_created_on>2023-12-12 19:44:28</sys_created_on>
+        <sys_id>a8eb684a474bf51095cbdffe046d43c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c5f8f2f6d0000001</sys_recorded_at>
+        <sys_updated_by>lpakgerner</sys_updated_by>
+        <sys_updated_on>2023-12-12 19:44:28</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>e0eb684a2f4bf510262958aa5a2bcfc4</update_guid>
+        <update_guid_history>e0eb684a2f4bf510262958aa5a2bcfc4:-366689420</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Vendor Standard Questions.Grocery Vendor Inventory Donation">9770010e478bf51095cbdffe046d43b3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>lpakgerner</sys_created_by>
+        <sys_created_on>2023-12-12 21:14:30</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>551a85360d4b4a2981ac2cd3bf81ff49</sys_id>
+        <sys_metadata>28eb684a474bf51095cbdffe046d43bc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vendor Standard Questions.Grocery Vendor Inventory Donation</sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_scope_delete display_value="">53bfa4b1387943839cbd1b0b16819761</sys_scope_delete>
+        <sys_update_name>io_set_item_28eb684a474bf51095cbdffe046d43bc</sys_update_name>
+        <sys_update_version display_value="io_set_item_28eb684a474bf51095cbdffe046d43bc">a8eb684a474bf51095cbdffe046d43c4</sys_update_version>
+        <sys_updated_by>lpakgerner</sys_updated_by>
+        <sys_updated_on>2023-12-12 21:14:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

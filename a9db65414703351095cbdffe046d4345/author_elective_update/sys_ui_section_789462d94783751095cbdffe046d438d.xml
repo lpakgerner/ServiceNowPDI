@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="789462d94783751095cbdffe046d438d" sys_domain="global" table="x_1152827_meal_c_0_vendors" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>sbaccam</sys_created_by>
+            <sys_created_on>2023-12-11 04:25:41</sys_created_on>
+            <sys_id>0c0050e1474b751095cbdffe046d43be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_vendors" sys_domain="global" view="Default view">789462d94783751095cbdffe046d438d</sys_ui_section>
+            <sys_updated_by>sbaccam</sys_updated_by>
+            <sys_updated_on>2023-12-11 04:25:41</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>sbaccam</sys_created_by>
+            <sys_created_on>2023-12-11 04:25:41</sys_created_on>
+            <sys_id>000050e1474b751095cbdffe046d43bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_vendors" sys_domain="global" view="Default view">789462d94783751095cbdffe046d438d</sys_ui_section>
+            <sys_updated_by>sbaccam</sys_updated_by>
+            <sys_updated_on>2023-12-11 04:25:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>2</position>
+            <sys_created_by>sbaccam</sys_created_by>
+            <sys_created_on>2023-12-11 04:25:41</sys_created_on>
+            <sys_id>040050e1474b751095cbdffe046d43bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_vendors" sys_domain="global" view="Default view">789462d94783751095cbdffe046d438d</sys_ui_section>
+            <sys_updated_by>sbaccam</sys_updated_by>
+            <sys_updated_on>2023-12-11 04:25:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email</element>
+            <position>3</position>
+            <sys_created_by>sbaccam</sys_created_by>
+            <sys_created_on>2023-12-11 04:25:41</sys_created_on>
+            <sys_id>080050e1474b751095cbdffe046d43bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_vendors" sys_domain="global" view="Default view">789462d94783751095cbdffe046d438d</sys_ui_section>
+            <sys_updated_by>sbaccam</sys_updated_by>
+            <sys_updated_on>2023-12-11 04:25:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>roles</element>
+            <position>4</position>
+            <sys_created_by>sbaccam</sys_created_by>
+            <sys_created_on>2023-12-11 04:25:41</sys_created_on>
+            <sys_id>0c0050e1474b751095cbdffe046d43bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_vendors" sys_domain="global" view="Default view">789462d94783751095cbdffe046d438d</sys_ui_section>
+            <sys_updated_by>sbaccam</sys_updated_by>
+            <sys_updated_on>2023-12-11 04:25:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>sbaccam</sys_created_by>
+            <sys_created_on>2023-12-11 04:25:41</sys_created_on>
+            <sys_id>000050e1474b751095cbdffe046d43c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_vendors" sys_domain="global" view="Default view">789462d94783751095cbdffe046d438d</sys_ui_section>
+            <sys_updated_by>sbaccam</sys_updated_by>
+            <sys_updated_on>2023-12-11 04:25:41</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company</element>
+            <position>6</position>
+            <sys_created_by>sbaccam</sys_created_by>
+            <sys_created_on>2023-12-11 04:25:41</sys_created_on>
+            <sys_id>040050e1474b751095cbdffe046d43c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_vendors" sys_domain="global" view="Default view">789462d94783751095cbdffe046d438d</sys_ui_section>
+            <sys_updated_by>sbaccam</sys_updated_by>
+            <sys_updated_on>2023-12-11 04:25:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>groups</element>
+            <position>7</position>
+            <sys_created_by>sbaccam</sys_created_by>
+            <sys_created_on>2023-12-11 04:25:41</sys_created_on>
+            <sys_id>080050e1474b751095cbdffe046d43c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_vendors" sys_domain="global" view="Default view">789462d94783751095cbdffe046d438d</sys_ui_section>
+            <sys_updated_by>sbaccam</sys_updated_by>
+            <sys_updated_on>2023-12-11 04:25:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>phone_number</element>
+            <position>8</position>
+            <sys_created_by>sbaccam</sys_created_by>
+            <sys_created_on>2023-12-11 04:25:41</sys_created_on>
+            <sys_id>0c0050e1474b751095cbdffe046d43c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_vendors" sys_domain="global" view="Default view">789462d94783751095cbdffe046d438d</sys_ui_section>
+            <sys_updated_by>sbaccam</sys_updated_by>
+            <sys_updated_on>2023-12-11 04:25:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>9</position>
+            <sys_created_by>sbaccam</sys_created_by>
+            <sys_created_on>2023-12-11 04:25:41</sys_created_on>
+            <sys_id>000050e1474b751095cbdffe046d43c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_vendors" sys_domain="global" view="Default view">789462d94783751095cbdffe046d438d</sys_ui_section>
+            <sys_updated_by>sbaccam</sys_updated_by>
+            <sys_updated_on>2023-12-11 04:25:41</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_1152827_meal_c_0_vendors</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>lpakgerner</sys_created_by>
+            <sys_created_on>2023-12-10 20:36:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>789462d94783751095cbdffe046d438d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1152827_meal_c_0_vendors</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+            <sys_update_name>sys_ui_section_789462d94783751095cbdffe046d438d</sys_update_name>
+            <sys_updated_by>lpakgerner</sys_updated_by>
+            <sys_updated_on>2023-12-10 20:36:20</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Meal Connections">a9db65414703351095cbdffe046d4345</application>
+        <file_path/>
+        <instance_id>6b8c4db3db4660d052cec597059619ac</instance_id>
+        <instance_name>dev106281</instance_name>
+        <name>sys_ui_section_789462d94783751095cbdffe046d438d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="789462d94783751095cbdffe046d438d" sys_domain="global" table="x_1152827_meal_c_0_vendors" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>0</position><sys_created_by>sbaccam</sys_created_by><sys_created_on>2023-12-11 04:25:41</sys_created_on><sys_id>0c0050e1474b751095cbdffe046d43be</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_vendors" sys_domain="global" view="Default view">789462d94783751095cbdffe046d438d</sys_ui_section><sys_updated_by>sbaccam</sys_updated_by><sys_updated_on>2023-12-11 04:25:41</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>1</position><sys_created_by>sbaccam</sys_created_by><sys_created_on>2023-12-11 04:25:41</sys_created_on><sys_id>000050e1474b751095cbdffe046d43bf</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_vendors" sys_domain="global" view="Default view">789462d94783751095cbdffe046d438d</sys_ui_section><sys_updated_by>sbaccam</sys_updated_by><sys_updated_on>2023-12-11 04:25:41</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>name</element><position>2</position><sys_created_by>sbaccam</sys_created_by><sys_created_on>2023-12-11 04:25:41</sys_created_on><sys_id>040050e1474b751095cbdffe046d43bf</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_vendors" sys_domain="global" view="Default view">789462d94783751095cbdffe046d438d</sys_ui_section><sys_updated_by>sbaccam</sys_updated_by><sys_updated_on>2023-12-11 04:25:41</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>email</element><position>3</position><sys_created_by>sbaccam</sys_created_by><sys_created_on>2023-12-11 04:25:41</sys_created_on><sys_id>080050e1474b751095cbdffe046d43bf</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_vendors" sys_domain="global" view="Default view">789462d94783751095cbdffe046d438d</sys_ui_section><sys_updated_by>sbaccam</sys_updated_by><sys_updated_on>2023-12-11 04:25:41</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>roles</element><position>4</position><sys_created_by>sbaccam</sys_created_by><sys_created_on>2023-12-11 04:25:41</sys_created_on><sys_id>0c0050e1474b751095cbdffe046d43bf</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_vendors" sys_domain="global" view="Default view">789462d94783751095cbdffe046d438d</sys_ui_section><sys_updated_by>sbaccam</sys_updated_by><sys_updated_on>2023-12-11 04:25:41</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>5</position><sys_created_by>sbaccam</sys_created_by><sys_created_on>2023-12-11 04:25:41</sys_created_on><sys_id>000050e1474b751095cbdffe046d43c0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_vendors" sys_domain="global" view="Default view">789462d94783751095cbdffe046d438d</sys_ui_section><sys_updated_by>sbaccam</sys_updated_by><sys_updated_on>2023-12-11 04:25:41</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>company</element><position>6</position><sys_created_by>sbaccam</sys_created_by><sys_created_on>2023-12-11 04:25:41</sys_created_on><sys_id>040050e1474b751095cbdffe046d43c0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_vendors" sys_domain="global" view="Default view">789462d94783751095cbdffe046d438d</sys_ui_section><sys_updated_by>sbaccam</sys_updated_by><sys_updated_on>2023-12-11 04:25:41</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>groups</element><position>7</position><sys_created_by>sbaccam</sys_created_by><sys_created_on>2023-12-11 04:25:41</sys_created_on><sys_id>080050e1474b751095cbdffe046d43c0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_vendors" sys_domain="global" view="Default view">789462d94783751095cbdffe046d438d</sys_ui_section><sys_updated_by>sbaccam</sys_updated_by><sys_updated_on>2023-12-11 04:25:41</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>phone_number</element><position>8</position><sys_created_by>sbaccam</sys_created_by><sys_created_on>2023-12-11 04:25:41</sys_created_on><sys_id>0c0050e1474b751095cbdffe046d43c0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_vendors" sys_domain="global" view="Default view">789462d94783751095cbdffe046d438d</sys_ui_section><sys_updated_by>sbaccam</sys_updated_by><sys_updated_on>2023-12-11 04:25:41</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>9</position><sys_created_by>sbaccam</sys_created_by><sys_created_on>2023-12-11 04:25:41</sys_created_on><sys_id>000050e1474b751095cbdffe046d43c1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1152827_meal_c_0_vendors" sys_domain="global" view="Default view">789462d94783751095cbdffe046d438d</sys_ui_section><sys_updated_by>sbaccam</sys_updated_by><sys_updated_on>2023-12-11 04:25:41</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_1152827_meal_c_0_vendors</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>lpakgerner</sys_created_by><sys_created_on>2023-12-10 20:36:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>789462d94783751095cbdffe046d438d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1152827_meal_c_0_vendors</sys_name><sys_overrides/><sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package><sys_policy/><sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope><sys_update_name>sys_ui_section_789462d94783751095cbdffe046d438d</sys_update_name><sys_updated_by>lpakgerner</sys_updated_by><sys_updated_on>2023-12-10 20:36:20</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1769519160</payload_hash>
+        <record_name>Vendors</record_name>
+        <reverted_from/>
+        <source>2ddb65414703351095cbdffe046d4347</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-11 04:25:41</sys_created_on>
+        <sys_id>440050e1474b751095cbdffe046d43c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c571fa9430000001</sys_recorded_at>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-11 04:25:41</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>4c0050e10a4b75103ba2a9de95da7ec2</update_guid>
+        <update_guid_history>4c0050e10a4b75103ba2a9de95da7ec2:1769519160,a5ff40e1724b751031a4c45c1ecc5902:2100200459,389462d9fc8375103243c1d06ea87594:100376890,709462d974837510d34554b129941d91:-2106850157</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 00:42:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>0a0a9f3f820549fe806685d3e4d5dcd9</sys_id>
+        <sys_metadata>789462d94783751095cbdffe046d438d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1152827_meal_c_0_vendors</sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_parent display_value="">381322594783751095cbdffe046d434b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_scope_delete display_value="">53bfa4b1387943839cbd1b0b16819761</sys_scope_delete>
+        <sys_update_name>sys_ui_section_789462d94783751095cbdffe046d438d</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_789462d94783751095cbdffe046d438d">440050e1474b751095cbdffe046d43c3</sys_update_version>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 00:42:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

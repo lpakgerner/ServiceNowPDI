@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Vendor Food Donation ">71c0531a47c3791095cbdffe046d430a</sc_cat_item>
+        <sc_category display_value="Meal Connections">042e50ca470bf51095cbdffe046d4370</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>lpakgerner</sys_created_by>
+        <sys_created_on>2023-12-14 02:56:40</sys_created_on>
+        <sys_id>1168dfde47c3791095cbdffe046d4326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Meal Connections.Vendor Food Donation </sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_update_name>sc_cat_item_category_1168dfde47c3791095cbdffe046d4326</sys_update_name>
+        <sys_updated_by>lpakgerner</sys_updated_by>
+        <sys_updated_on>2023-12-14 02:56:40</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Meal Connections">a9db65414703351095cbdffe046d4345</application>
+        <file_path/>
+        <instance_id>6b8c4db3db4660d052cec597059619ac</instance_id>
+        <instance_name>dev106281</instance_name>
+        <name>sc_cat_item_category_1168dfde47c3791095cbdffe046d4326</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Vendor Food Donation ">71c0531a47c3791095cbdffe046d430a</sc_cat_item><sc_category display_value="Meal Connections">042e50ca470bf51095cbdffe046d4370</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>lpakgerner</sys_created_by><sys_created_on>2023-12-14 02:56:40</sys_created_on><sys_id>1168dfde47c3791095cbdffe046d4326</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Meal Connections.Vendor Food Donation </sys_name><sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package><sys_policy/><sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope><sys_update_name>sc_cat_item_category_1168dfde47c3791095cbdffe046d4326</sys_update_name><sys_updated_by>lpakgerner</sys_updated_by><sys_updated_on>2023-12-14 02:56:40</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>1774678836</payload_hash>
+        <record_name>Meal Connections.Vendor Food Donation </record_name>
+        <reverted_from/>
+        <source>2ddb65414703351095cbdffe046d4347</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>lpakgerner</sys_created_by>
+        <sys_created_on>2023-12-14 02:56:40</sys_created_on>
+        <sys_id>9568dfde47c3791095cbdffe046d432a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c66413aec0000001</sys_recorded_at>
+        <sys_updated_by>lpakgerner</sys_updated_by>
+        <sys_updated_on>2023-12-14 02:56:40</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>1d68dfde75c3791004a9720603906e29</update_guid>
+        <update_guid_history>1d68dfde75c3791004a9720603906e29:1774678836</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Meal Connections.Vendor Food Donation ">09d897124707791095cbdffe046d43bf</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>lpakgerner</sys_created_by>
+        <sys_created_on>2023-12-14 02:58:33</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>00a7d82fee1b4a28802d10230f886e40</sys_id>
+        <sys_metadata>1168dfde47c3791095cbdffe046d4326</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Meal Connections.Vendor Food Donation </sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_scope_delete display_value="">53bfa4b1387943839cbd1b0b16819761</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_1168dfde47c3791095cbdffe046d4326</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_1168dfde47c3791095cbdffe046d4326">9568dfde47c3791095cbdffe046d432a</sys_update_version>
+        <sys_updated_by>lpakgerner</sys_updated_by>
+        <sys_updated_on>2023-12-14 02:58:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

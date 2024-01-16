@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="41c0c68247cff51095cbdffe046d43c9" label="Customer Orders" max_length="40" name="x_1152827_meal_c_0_customer_orders" text_index="true" type="collection">
+        <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Customer" mandatory="true" max_length="32" name="customer" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element default="javascript: new GlideDateTime().getDate()" label="Date Ordered" mandatory="true" max_length="40" name="date_ordered" read_only="true" type="glide_date"/>
+        <element label="Food Item #1" mandatory="true" max_length="32" name="food_item_1" reference="x_1152827_meal_c_0_meal_connections_available_food" type="reference"/>
+        <element label="Food Item #2" max_length="32" name="food_item_2" reference="x_1152827_meal_c_0_meal_connections_available_food" type="reference"/>
+        <element label="Food Item #3" max_length="32" name="food_item_3" reference="x_1152827_meal_c_0_meal_connections_available_food" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Short Description" max_length="40" name="short_description" type="journal"/>
+        <element choice="3" default="waiting" label="State" mandatory="true" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Waiting" sequence="0" value="waiting"/>
+                <element inactive_on_update="false" label="Picked Up" sequence="1" value="picked_up"/>
+                <element inactive_on_update="false" label="Canceled" sequence="2" value="canceled"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="customer"/>
+        </index>
+        <index name="index2">
+            <element name="food_item_1"/>
+        </index>
+        <index name="index3">
+            <element name="food_item_2"/>
+        </index>
+        <index name="index4">
+            <element name="food_item_3"/>
+        </index>
+    </element>
+</database>

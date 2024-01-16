@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="430131a2474f791095cbdffe046d4389" extends="sys_import_set_row" label="Available Food First Data" max_length="40" name="x_1152827_meal_c_0_ihub_import_6d3380a5470b751095cbdffe046d43eb" text_index="true" type="collection">
+        <element attributes="import_attribute_name=Days Until Expired" label="Days Until Expired" max_length="40" name="u_days_until_expired" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Expiration Date" label="Expiration Date" max_length="40" name="u_expiration_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Food Items" label="Food Items" max_length="40" name="u_food_items" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Is Expired?" label="Is Expired?" max_length="40" name="u_is_expired_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Priority" label="Priority" max_length="40" name="u_priority" type="string"/>
+        <element attributes="import_attribute_name=Quantity" label="Quantity" max_length="40" name="u_quantity" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Type" label="Type" max_length="40" name="u_type" type="string"/>
+    </element>
+</database>

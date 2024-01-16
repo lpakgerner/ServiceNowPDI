@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_robust_import_set_transformer">
+    <sys_robust_import_set_transformer action="DELETE">
+        <active>true</active>
+        <batch_size>10</batch_size>
+        <description>RTE definition for test</description>
+        <name>test_rte_ihub</name>
+        <properties/>
+        <robust_transform_engine/>
+        <source_table>x_1152827_meal_c_0_ihub_import_af2790a9474b751095cbdffe046d436d</source_table>
+        <sys_class_name>sys_robust_import_set_transformer</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-11 04:57:44</sys_created_on>
+        <sys_id>e55754a9474b751095cbdffe046d437b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test_rte_ihub</sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_update_name>sys_robust_import_set_transformer_e55754a9474b751095cbdffe046d437b</sys_update_name>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-11 04:57:44</sys_updated_on>
+        <verbose>false</verbose>
+    </sys_robust_import_set_transformer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Meal Connections">a9db65414703351095cbdffe046d4345</application>
+        <file_path/>
+        <instance_id>6b8c4db3db4660d052cec597059619ac</instance_id>
+        <instance_name>dev106281</instance_name>
+        <name>sys_robust_import_set_transformer_e55754a9474b751095cbdffe046d437b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_robust_import_set_transformer"><sys_robust_import_set_transformer action="INSERT_OR_UPDATE"><active>true</active><batch_size>10</batch_size><description>RTE definition for test</description><name>test_rte_ihub</name><properties/><robust_transform_engine/><source_table>x_1152827_meal_c_0_ihub_import_af2790a9474b751095cbdffe046d436d</source_table><sys_class_name>sys_robust_import_set_transformer</sys_class_name><sys_created_by>sbaccam</sys_created_by><sys_created_on>2023-12-11 04:57:44</sys_created_on><sys_id>e55754a9474b751095cbdffe046d437b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>test_rte_ihub</sys_name><sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package><sys_policy/><sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope><sys_update_name>sys_robust_import_set_transformer_e55754a9474b751095cbdffe046d437b</sys_update_name><sys_updated_by>sbaccam</sys_updated_by><sys_updated_on>2023-12-11 04:57:44</sys_updated_on><verbose>false</verbose></sys_robust_import_set_transformer></record_update>]]></payload>
+        <payload_hash>-306903257</payload_hash>
+        <record_name>test_rte_ihub</record_name>
+        <reverted_from/>
+        <source>7ce12cb6d4a3211095d7c105f1bf439b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-12-11 05:02:26</sys_created_on>
+        <sys_id>2668d4e9474b751095cbdffe046d439a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c57414e390000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-12-11 05:02:26</sys_updated_on>
+        <type>Robust Import Set Transformer</type>
+        <update_guid>6268d4e9334b75100154673681b1f19a</update_guid>
+        <update_guid_history>6268d4e9334b75100154673681b1f19a:0,a55754a9044b7510d4c95b16851d9f7d:374805825</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-12-11 05:02:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_robust_import_set_transformer">sys_robust_import_set_transformer</sys_db_object>
+        <sys_id>20497c8a0616429e9feefea157277561</sys_id>
+        <sys_metadata>e55754a9474b751095cbdffe046d437b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test_rte_ihub</sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_scope_delete display_value="">53bfa4b1387943839cbd1b0b16819761</sys_scope_delete>
+        <sys_update_name>sys_robust_import_set_transformer_e55754a9474b751095cbdffe046d437b</sys_update_name>
+        <sys_update_version display_value="sys_robust_import_set_transformer_e55754a9474b751095cbdffe046d437b">2668d4e9474b751095cbdffe046d439a</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-12-11 05:02:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Requested Food Items" section_id="96e0f502478ff51095cbdffe046d432a" sys_domain="global" table="u_meal_connections_customer_orders" version="3" view="customer">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_1152827_meal_c_0_food_item_1</element>
+            <position>0</position>
+            <sys_created_by>sbaccam</sys_created_by>
+            <sys_created_on>2023-12-13 00:46:38</sys_created_on>
+            <sys_id>fa01f902478ff51095cbdffe046d4333</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Requested Food Items" display_value="Requested Food Items" name="u_meal_connections_customer_orders" sys_domain="global" view="9cde1472d423211095d7c105f1bf43f6">96e0f502478ff51095cbdffe046d432a</sys_ui_section>
+            <sys_updated_by>sbaccam</sys_updated_by>
+            <sys_updated_on>2023-12-13 00:46:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_1152827_meal_c_0_food_item_2</element>
+            <position>1</position>
+            <sys_created_by>sbaccam</sys_created_by>
+            <sys_created_on>2023-12-13 00:46:38</sys_created_on>
+            <sys_id>fe01f902478ff51095cbdffe046d4333</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Requested Food Items" display_value="Requested Food Items" name="u_meal_connections_customer_orders" sys_domain="global" view="9cde1472d423211095d7c105f1bf43f6">96e0f502478ff51095cbdffe046d432a</sys_ui_section>
+            <sys_updated_by>sbaccam</sys_updated_by>
+            <sys_updated_on>2023-12-13 00:46:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_1152827_meal_c_0_food_item_3</element>
+            <position>2</position>
+            <sys_created_by>sbaccam</sys_created_by>
+            <sys_created_on>2023-12-13 00:46:38</sys_created_on>
+            <sys_id>f201f902478ff51095cbdffe046d4334</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Requested Food Items" display_value="Requested Food Items" name="u_meal_connections_customer_orders" sys_domain="global" view="9cde1472d423211095d7c105f1bf43f6">96e0f502478ff51095cbdffe046d432a</sys_ui_section>
+            <sys_updated_by>sbaccam</sys_updated_by>
+            <sys_updated_on>2023-12-13 00:46:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Requested Food Items</caption>
+            <header>false</header>
+            <name>u_meal_connections_customer_orders</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>sbaccam</sys_created_by>
+            <sys_created_on>2023-12-13 00:46:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>96e0f502478ff51095cbdffe046d432a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>u_meal_connections_customer_orders</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+            <sys_update_name>sys_ui_section_96e0f502478ff51095cbdffe046d432a</sys_update_name>
+            <sys_updated_by>sbaccam</sys_updated_by>
+            <sys_updated_on>2023-12-13 00:46:38</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Customer" name="customer">9cde1472d423211095d7c105f1bf43f6</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Meal Connections">a9db65414703351095cbdffe046d4345</application>
+        <file_path/>
+        <instance_id>6b8c4db3db4660d052cec597059619ac</instance_id>
+        <instance_name>dev106281</instance_name>
+        <name>sys_ui_section_96e0f502478ff51095cbdffe046d432a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Requested Food Items" section_id="96e0f502478ff51095cbdffe046d432a" sys_domain="global" table="u_meal_connections_customer_orders" version="3" view="customer"><sys_ui_element action="INSERT_OR_UPDATE"><element>x_1152827_meal_c_0_food_item_1</element><position>0</position><sys_created_by>sbaccam</sys_created_by><sys_created_on>2023-12-13 00:46:38</sys_created_on><sys_id>fa01f902478ff51095cbdffe046d4333</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Requested Food Items" display_value="Requested Food Items" name="u_meal_connections_customer_orders" sys_domain="global" view="9cde1472d423211095d7c105f1bf43f6">96e0f502478ff51095cbdffe046d432a</sys_ui_section><sys_updated_by>sbaccam</sys_updated_by><sys_updated_on>2023-12-13 00:46:38</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>x_1152827_meal_c_0_food_item_2</element><position>1</position><sys_created_by>sbaccam</sys_created_by><sys_created_on>2023-12-13 00:46:38</sys_created_on><sys_id>fe01f902478ff51095cbdffe046d4333</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Requested Food Items" display_value="Requested Food Items" name="u_meal_connections_customer_orders" sys_domain="global" view="9cde1472d423211095d7c105f1bf43f6">96e0f502478ff51095cbdffe046d432a</sys_ui_section><sys_updated_by>sbaccam</sys_updated_by><sys_updated_on>2023-12-13 00:46:38</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>x_1152827_meal_c_0_food_item_3</element><position>2</position><sys_created_by>sbaccam</sys_created_by><sys_created_on>2023-12-13 00:46:38</sys_created_on><sys_id>f201f902478ff51095cbdffe046d4334</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Requested Food Items" display_value="Requested Food Items" name="u_meal_connections_customer_orders" sys_domain="global" view="9cde1472d423211095d7c105f1bf43f6">96e0f502478ff51095cbdffe046d432a</sys_ui_section><sys_updated_by>sbaccam</sys_updated_by><sys_updated_on>2023-12-13 00:46:38</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Requested Food Items</caption><header>false</header><name>u_meal_connections_customer_orders</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>sbaccam</sys_created_by><sys_created_on>2023-12-13 00:46:03</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>96e0f502478ff51095cbdffe046d432a</sys_id><sys_mod_count>1</sys_mod_count><sys_name>u_meal_connections_customer_orders</sys_name><sys_overrides/><sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package><sys_policy/><sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope><sys_update_name>sys_ui_section_96e0f502478ff51095cbdffe046d432a</sys_update_name><sys_updated_by>sbaccam</sys_updated_by><sys_updated_on>2023-12-13 00:46:38</sys_updated_on><sys_user/><title>false</title><view display_value="Customer" name="customer">9cde1472d423211095d7c105f1bf43f6</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>72032710</payload_hash>
+        <record_name>Meal Connections Customer Orders</record_name>
+        <reverted_from/>
+        <source>2ddb65414703351095cbdffe046d4347</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 00:46:38</sys_created_on>
+        <sys_id>7201f902478ff51095cbdffe046d4336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c60a3d46b0000001</sys_recorded_at>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 00:46:38</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>7a01f902998ff510a6b8ca330c7a5a35</update_guid>
+        <update_guid_history>7a01f902998ff510a6b8ca330c7a5a35:72032710,7e01f902e58ff51040cd4f09caa3652e:1994601316,eae0f502408ff5102d777444d8db4ec4:1284863494</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sbaccam</sys_created_by>
+        <sys_created_on>2023-12-13 13:17:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>003f3dec06044bb88630bc122ffaee40</sys_id>
+        <sys_metadata>96e0f502478ff51095cbdffe046d432a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requested Food Items</sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_parent display_value="">011f82814783351095cbdffe046d432a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_scope_delete display_value="">53bfa4b1387943839cbd1b0b16819761</sys_scope_delete>
+        <sys_update_name>sys_ui_section_96e0f502478ff51095cbdffe046d432a</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_96e0f502478ff51095cbdffe046d432a">7201f902478ff51095cbdffe046d4336</sys_update_version>
+        <sys_updated_by>sbaccam</sys_updated_by>
+        <sys_updated_on>2023-12-13 13:17:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

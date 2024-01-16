@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="DELETE">
+        <group_id/>
+        <report_id display_value="Pie on Meal Connections Available Food table by type created by Champellia Landry: 2023-12-14 08:25:">48b15a6247cf791095cbdffe046d4370</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>lpakgerner</sys_created_by>
+        <sys_created_on>2023-12-16 01:26:21</sys_created_on>
+        <sys_id>b5e65d87474bf91095cbdffe046d43be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>48b15a6247cf791095cbdffe046d4370</sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_update_name>sys_report_users_groups_b5e65d87474bf91095cbdffe046d43be</sys_update_name>
+        <sys_updated_by>lpakgerner</sys_updated_by>
+        <sys_updated_on>2023-12-16 01:26:21</sys_updated_on>
+        <user_id display_value="Linder Pak-Gerner">3b3352dc4747711095cbdffe046d4301</user_id>
+    </sys_report_users_groups>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Meal Connections">a9db65414703351095cbdffe046d4345</application>
+        <file_path/>
+        <instance_id>6b8c4db3db4660d052cec597059619ac</instance_id>
+        <instance_name>dev106281</instance_name>
+        <name>sys_report_users_groups_b5e65d87474bf91095cbdffe046d43be</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups"><sys_report_users_groups action="INSERT_OR_UPDATE"><group_id/><report_id display_value="Pie on Meal Connections Available Food table by type created by Champellia Landry: 2023-12-14 08:25:">48b15a6247cf791095cbdffe046d4370</report_id><sys_class_name>sys_report_users_groups</sys_class_name><sys_created_by>lpakgerner</sys_created_by><sys_created_on>2023-12-16 01:26:21</sys_created_on><sys_id>b5e65d87474bf91095cbdffe046d43be</sys_id><sys_mod_count>0</sys_mod_count><sys_name>48b15a6247cf791095cbdffe046d4370</sys_name><sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package><sys_policy/><sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope><sys_update_name>sys_report_users_groups_b5e65d87474bf91095cbdffe046d43be</sys_update_name><sys_updated_by>lpakgerner</sys_updated_by><sys_updated_on>2023-12-16 01:26:21</sys_updated_on><user_id display_value="Linder Pak-Gerner">3b3352dc4747711095cbdffe046d4301</user_id></sys_report_users_groups></record_update>]]></payload>
+        <payload_hash>-1582705342</payload_hash>
+        <record_name>48b15a6247cf791095cbdffe046d4370</record_name>
+        <reverted_from/>
+        <source>2ddb65414703351095cbdffe046d4347</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>lpakgerner</sys_created_by>
+        <sys_created_on>2023-12-16 01:26:21</sys_created_on>
+        <sys_id>39e65d87474bf91095cbdffe046d43c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c703b43030000001</sys_recorded_at>
+        <sys_updated_by>lpakgerner</sys_updated_by>
+        <sys_updated_on>2023-12-16 01:26:21</sys_updated_on>
+        <type>Report Users and Groups</type>
+        <update_guid>71e65d87bf4bf910bf575f7cbcd243c0</update_guid>
+        <update_guid_history>71e65d87bf4bf910bf575f7cbcd243c0:-1582705342</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>lpakgerner</sys_created_by>
+        <sys_created_on>2023-12-16 01:36:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_report_users_groups">sys_report_users_groups</sys_db_object>
+        <sys_id>15d73eb11f544e7086c43ddfcd4b4100</sys_id>
+        <sys_metadata>b5e65d87474bf91095cbdffe046d43be</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>48b15a6247cf791095cbdffe046d4370</sys_name>
+        <sys_package display_value="Meal Connections" source="x_1152827_meal_c_0">a9db65414703351095cbdffe046d4345</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Meal Connections">a9db65414703351095cbdffe046d4345</sys_scope>
+        <sys_scope_delete display_value="">53bfa4b1387943839cbd1b0b16819761</sys_scope_delete>
+        <sys_update_name>sys_report_users_groups_b5e65d87474bf91095cbdffe046d43be</sys_update_name>
+        <sys_update_version display_value="sys_report_users_groups_b5e65d87474bf91095cbdffe046d43be">39e65d87474bf91095cbdffe046d43c0</sys_update_version>
+        <sys_updated_by>lpakgerner</sys_updated_by>
+        <sys_updated_on>2023-12-16 01:36:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

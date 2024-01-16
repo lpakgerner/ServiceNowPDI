@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="895048a1470b751095cbdffe046d4386" label="Meal Connections Available Food" max_length="40" name="x_1152827_meal_c_0_meal_connections_available_food" text_index="true" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;var exp = new GlideDateTime(current.expiration_date.getDisplayValue());&#13;&#10;&#9;var today = new GlideDate();&#13;&#10;&#9;var dateDiff = GlideDateTime.subtract(today, exp).getNumericValue();&#13;&#10;&#9;var days = dateDiff / 24 / 60 / 60 / 1000;&#13;&#10;&#9;return current.days_until_expired = days + 1;&#13;&#10;&#13;&#10;})(current);" label="Days Until Expired" mandatory="true" max_length="40" name="days_until_expired" read_only="true" type="integer" virtual="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Expiration Date" mandatory="true" max_length="40" name="expiration_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Food Items" mandatory="true" max_length="40" name="food_items" type="string"/>
+        <element choice="3" label="Food Item #1" max_length="40" name="food_item_1" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Bread, Rice, Noodles &amp; Pasta"/>
+                <element inactive_on_update="false" label="Canned/Jarred/Boxed Goods"/>
+                <element inactive_on_update="false" label="Dairy &amp; Eggs"/>
+                <element inactive_on_update="false" label="Fruits"/>
+                <element inactive_on_update="false" label="Meat &amp; Beans"/>
+                <element inactive_on_update="false" label="Non-Perishables"/>
+                <element inactive_on_update="false" label="Oils"/>
+                <element inactive_on_update="false" label="Vegetables"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;var exp = new GlideDateTime(current.expiration_date.getDisplayValue());&#13;&#10;&#9;var today = new GlideDate();&#13;&#10;&#9;var dateDiff = GlideDateTime.subtract(today, exp).getNumericValue();&#13;&#10;&#9;var days = dateDiff / 24 / 60 / 60 / 1000 + 1;&#13;&#10;&#9;if (days &lt;= 0) {&#13;&#10;&#9;&#9;return current.is_expired = 'Expired';&#13;&#10;&#9;} else {&#13;&#10;&#9;&#9;return current.is_expired = 'Good';&#13;&#10;&#9;}&#13;&#10;&#13;&#10;})(current);" choice="3" label="Is Expired?" max_length="40" name="is_expired" read_only="true" type="choice" virtual="true">
+            <choice>
+                <element inactive_on_update="false" label="Expired" sequence="0" value="Expired"/>
+                <element inactive_on_update="false" label="Good" sequence="0" value="Good"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Name" max_length="32" name="name" reference="sys_user" type="reference"/>
+        <element label="Pick-Up Date" max_length="40" name="pick_up_date" type="calendar_date_time"/>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;var exp = new GlideDateTime(current.expiration_date.getDisplayValue());&#13;&#10;&#9;var today = new GlideDate();&#13;&#10;&#9;var dateDiff = GlideDateTime.subtract(today, exp).getNumericValue();&#13;&#10;&#9;var days = dateDiff / 24 / 60 / 60 / 1000 + 2;&#13;&#10;&#9;if (days &gt;= 4) {&#13;&#10;&#9;&#9;return current.priority = '4_low';&#13;&#10;&#9;} else if (days &gt;= 3) {&#13;&#10;&#9;&#9;return current.priority = '3_moderate';&#13;&#10;&#9;} else if (days &gt;= 2) {&#13;&#10;&#9;&#9;return current.priority = '2_high';&#13;&#10;&#9;} else if (days &gt;= 1) {&#13;&#10;&#9;&#9;return current.priority = '1_critical';&#13;&#10;&#9;} else {&#13;&#10;&#9;&#9;return current.priority = 'expired';&#13;&#10;&#9;}&#13;&#10;&#9;&#13;&#10;&#13;&#10;})(current);" choice="3" label="Priority" mandatory="true" max_length="40" name="priority" read_only="true" type="choice" virtual="true">
+            <choice>
+                <element inactive_on_update="false" label="1 - Critical" sequence="0" value="1_critical"/>
+                <element inactive_on_update="false" label="2 - High" sequence="1" value="2_high"/>
+                <element inactive_on_update="false" label="3 - Moderate" sequence="2" value="3_moderate"/>
+                <element inactive_on_update="false" label="4 - Low" sequence="3" value="4_low"/>
+                <element inactive_on_update="false" label="Expired" sequence="4" value="expired"/>
+            </choice>
+        </element>
+        <element label="Quantity" mandatory="true" max_length="40" name="quantity" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" mandatory="true" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Canned/Jarred/Boxed Goods" sequence="0" value="Canned/Jarred/Boxed Goods"/>
+                <element inactive_on_update="false" label="Dairy &amp; Eggs" sequence="1" value="Dairy &amp; Eggs"/>
+                <element inactive_on_update="false" label="Fruits" sequence="2" value="Fruits"/>
+                <element inactive_on_update="false" label="Meat &amp; Beans" sequence="3" value="Meat &amp; Beans"/>
+                <element inactive_on_update="false" label="Non-perishables" sequence="4" value="Non-perishables"/>
+                <element inactive_on_update="false" label="Oils" sequence="5" value="Oils"/>
+                <element inactive_on_update="false" label="Sauces" sequence="6" value="Sauces"/>
+                <element inactive_on_update="false" label="Vegetables" sequence="7" value="Vegetables"/>
+                <element inactive_on_update="false" label="Bread, Rice, Noodles &amp; Pasta" sequence="8" value="Bread, Rice, Noodles &amp; Pasta"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="name"/>
+        </index>
+    </element>
+</database>
